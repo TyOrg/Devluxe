@@ -1,5 +1,5 @@
 
 		
-		<footer>This is my foooter</footer>
+		<footer><p>This is my foooter</p></footer>
 	</body>
 </html>

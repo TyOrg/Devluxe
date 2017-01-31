@@ -2,7 +2,7 @@
 
 function deluxe_theme_styles() {
 
-	wp_enqueue_style( 'customstyle', get_template_directory_uri() . '/css/dexluxe.css', array(), '1.0.0', 'all' );
+	wp_enqueue_style( 'customstyle', get_template_directory_uri() . '/css/devluxe.css', array(), '1.0.0', 'all' );
 	
 }
 
