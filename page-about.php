@@ -5,7 +5,11 @@
 		
 		while( have_posts() ): the_post(); ?>
 
-			<?php get_template_part('content',get_post_format()); ?>
+			<p><?php the_content(); ?></p>
+			
+			<h1><?php the_title(); ?></h1>
+
+		<hr>
 
 		<?php endwhile;
 
