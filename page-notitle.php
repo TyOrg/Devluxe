@@ -1,10 +1,9 @@
 
+<?php
 /*
-
-	Template Name: Page No Title
-
+Template Name: Page No Title
 */
-
+?>
 
 <?php get_header(); ?>
 

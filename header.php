@@ -18,11 +18,15 @@
   
   <body <?php body_class( $devluxe_classes ); ?> >
 
-  	<?php wp_nav_menu(array('theme_location'=>'primary')); 
+  	<div class="container">
 
-  		//var_dump(get_custom_header())
+  	<div class="row">
 
-  	?>
+  		<div class="col-xs-12">
+		  	<?php wp_nav_menu(array('theme_location'=>'primary')); ?>
+		</div>
+	</div>
+  	
 
   	<img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="" />
 
