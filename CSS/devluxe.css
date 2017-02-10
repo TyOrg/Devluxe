@@ -1,2 +1,5 @@
+.carousel { background: #000; }
+.carousel .item { height: 200px; overflow: hidden; }
+.carousel .item img { width: 100%; height: auto; }
 
 
