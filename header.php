@@ -70,6 +70,10 @@
 
 
 		</div>
+
+		<div class="search-form-container">
+			<?php get_search_form(); ?>
+
 	</div>
   	
 
