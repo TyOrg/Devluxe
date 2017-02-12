@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="row">
+<div clas="row">
 
   <div class="col-xs-12 col-sm-8">
 
@@ -9,9 +9,11 @@
 		
 		while( have_posts() ): the_post(); ?>
 
-			<p><?php the_content(); ?></p>
-			
 			<h1><?php the_title(); ?></h1>
+
+	<?php the_content(); ?>
+			
+			
 
 		<hr>
 

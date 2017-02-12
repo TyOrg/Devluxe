@@ -27,8 +27,8 @@
 
 <!-- Navbar from Bootstrap Components Tab -->
 
-  			<nav class="navbar navbar-default">
-  <div class="container-fluid">
+  			<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -70,14 +70,16 @@
 
 
 		</div>
-
+	<div class="col-xs-12">
 		<div class="search-form-container">
-			<?php get_search_form(); ?>
+			<div class="container">
+				<?php get_search_form(); ?>
+			</div>
 
 	</div>
   	
-
-  	<img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="" />
+<!--this code below is making a small square dot in upper left of pages.-->
+  <img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="" />
 
   		
 
