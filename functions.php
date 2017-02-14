@@ -72,4 +72,23 @@ function devluxe_widget_setup() {
 
 add_action('widgets_init','devluxe_widget_setup');
 
-?>
+/*
+	==============================
+	Include walker file
+	==============================
+*/
+require get_template_directory() . '/inc/walker.php';
+
+
+/*
+	==============================
+	Head Function
+	==============================
+*/
+
+function devluxe_remove_version() {
+	return '';
+}
+add_filter('the_generator','devluxe_remove_version');
+
+

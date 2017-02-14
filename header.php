@@ -1,8 +1,9 @@
 <!doctype html>
-<html>
+<html <?php language_attributes(); ?>>
 	<head>
-		<meta charset="utf-8">
-		<title>Devluxe</title>	
+		<meta charset="<?php bloginfo('charset'); ?>">
+		<title><?php bloginfo('name'); ?> <?php wp_title('|'); ?></title>
+		<meta name="description" content="<?php bloginfo('description'); ?>">
 		<?php wp_head(); ?>	 
   	</head>
 
@@ -77,11 +78,14 @@
 			</div>
 
 	</div>
-  	
+  
+
+
 <!--this code below is making a small square dot in upper left of pages.-->
   <img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="" />
 
-  		
+
+
 
 
 
