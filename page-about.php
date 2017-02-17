@@ -12,24 +12,24 @@
 			<h1><?php the_title(); ?></h1>
 
 	<?php the_content(); ?>
-			
-			
 
-		<hr>
-
-		<?php endwhile;
+	<?php endwhile;
 
 	endif;
-	
 	?>
-  </div>
+  
 
+<?php get_footer(); ?>
+
+  
+  </div>
 
 	<div class="col-xs-12 col-sm-4">
 		<?php get_sidebar(); ?>
-  </div>
+    </div>
+
 
 </div>
 
-<?php get_footer(); ?>
+
 
