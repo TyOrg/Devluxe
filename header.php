@@ -78,9 +78,12 @@
 				<?php get_search_form(); ?>
 			</div>
 
+     </div>
+
+    </div>
+
 	</div>
   
-
 
 <!--this code below is making a small square dot in upper left of pages.-->
   <img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="" />
