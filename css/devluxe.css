@@ -43,7 +43,7 @@ line-height: 1em;
 margin-top: -0.5em;
  }
 
-/*  Changing Bootstrap default of min-width: 1200px;      */
+/*  Changing Bootstrap default of min-width on 1200px desktop.      */
  @media (min-width:1200px){
 	.container {
 width:1050px
