@@ -1,4 +1,4 @@
-body { margin-top: 50px;8i }
+body { margin-top: 50px }
 
 .carousel { background: #000; }
 .carousel .item { height: 350px; overflow: hidden; }
@@ -42,6 +42,13 @@ top: 50%;
 line-height: 1em;
 margin-top: -0.5em;
  }
+
+/*  Changing Bootstrap default of min-width: 1200px;      */
+ @media (min-width:1200px){
+	.container {
+width:1050px
+}
+}
 
   
 
