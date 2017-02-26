@@ -14,8 +14,8 @@ Template Name: Page No Title
 
 			<h1>This is my Static Title</h1>
 
-			<small>Posted <?php the_time('F j, Y'); ?>, in <?php the_category(); ?></small>
-
+<!--			<small>Posted <?php the_time('F j, Y'); ?>, in <?php the_category(); ?></small> -->
+																				
 			<p><?php the_content(); ?></p>
 
 		<hr>
