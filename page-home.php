@@ -43,6 +43,7 @@
 						    </div>
 						    
 						    <?php $bullets .= '<li data-target="#devluxe-carousel" data-slide-to="'.$count.'" class="'; ?>
+						    
 						    <?php if($count == 0): $bullets .='active'; endif; ?>
 						    
 						    <?php  $bullets .= '"></li>'; ?>

@@ -1,7 +1,7 @@
 
 		
 		<footer>
-			<p>This is my foooter</p>
+			<p><hr></p>
 			 <?php wp_nav_menu(array('theme_location'=>'secondary')); ?>
 		</footer>
 
