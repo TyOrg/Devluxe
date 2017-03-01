@@ -11,37 +11,12 @@
 
  
 			<?php
-			$count = 0;
 
-				/*$args_cat = array(
-					'include' => '1, 9, 8'
-				);
 				
-				$categories = get_categories($args_cat);*/
-			
-				
-				/*foreach($categories as $category):*/
-					
-					/*$args = array( 
-						'type' => 'post',
-						'posts_per_page' => 1,
-						'category__in' => $category->term_id,
-						'category__not_in' => array( 10 ),
-					);*/
-
-					/*  Found this on CODEX as an example:
-					<?php // Retrieve only Pages and exclude About, links, contact, etc.
-			         $args = array(       // set up arguments
-				         'post_type' => 'page',              // Only Pages
-				         'post__not_in' => array(2,9,5,12)   // Do NOT show postID 2,9,5,or 12
-			                 );
-			       		query_posts($args);   // execute the arguments
-			  			?>
-					*/
 					
 					$args = array( 
 						'post_type' => 'portfolio',
-						'posts_per_page' => 1,
+						'posts_per_page' => -1,
 					);
 
 				
@@ -50,8 +25,8 @@
 					$carouselImages = new WP_Query( $args ); 
 					
 					if( $carouselImages->have_posts() ):
+					$count = 0;
 
-					
 
 						
 						while( $carouselImages->have_posts() ): $carouselImages->the_post(); ?>
@@ -72,17 +47,16 @@
 						    
 						    <?php  $bullets .= '"></li>'; ?>
 						
-						<?php endwhile;
+						<?php 
+						$count++;
+
+						endwhile;
 						
 					endif;
 					
 					wp_reset_postdata();
 
-					$count++;
 				
-				
-					
-				/*endforeach;*/			
 			?>
 
 
@@ -125,53 +99,10 @@
 			
 		endif;
 		
-		//PRINT OTHER 2 POSTS NOT THE FIRST ONE
-/*
-		$args = array(
-			'type' => 'post',
-			'posts_per_page' => 2,
-			'offset' => 1,
-		);
 		
-		$carouselImages = new WP_Query($args);
-			
-		if( $carouselImages->have_posts() ):
-			
-			while( $carouselImages->have_posts() ): $carouselImages->the_post(); ?>
 				
-				<?php get_template_part('content',get_post_format()); ?>
-			
-			<?php endwhile;
-			
-		endif;
+?>
 		
-		wp_reset_postdata();
-*/
-				
-		?>
-		
-		<!-- <hr> -->
-		
-		<?php
-			
-		//PRINT ONLY TUTORIALS
-/*
-		$carouselImages = new WP_Query('type=post&posts_per_page=-1&category_name=news');
-			
-		if( $carouselImages->have_posts() ):
-			
-			while( $carouselImages->have_posts() ): $carouselImages->the_post(); ?>
-				
-				<?php get_template_part('content',get_post_format()); ?>
-			
-			<?php endwhile;
-			
-		endif;
-		
-		wp_reset_postdata();
-*/
-				
-		?>
 	
 	</div>
 	
