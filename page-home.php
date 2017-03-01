@@ -11,6 +11,7 @@
 
  
 			<?php
+			$count = 0;
 
 				/*$args_cat = array(
 					'include' => '1, 9, 8'
@@ -40,7 +41,7 @@
 					
 					$args = array( 
 						'post_type' => 'portfolio',
-						'posts_per_page' => 2,
+						'posts_per_page' => 1,
 					);
 
 				
@@ -50,7 +51,7 @@
 					
 					if( $carouselImages->have_posts() ):
 
-						$count = 0;
+					
 
 						
 						while( $carouselImages->have_posts() ): $carouselImages->the_post(); ?>
@@ -76,8 +77,10 @@
 					endif;
 					
 					wp_reset_postdata();
+
+					$count++;
 				
-				$count++;
+				
 					
 				/*endforeach;*/			
 			?>
