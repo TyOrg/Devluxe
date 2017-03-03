@@ -84,8 +84,7 @@
 </div>
 
 <div class="row">
-	<div class="col-xs-12 col-sm-3">
-	</div>
+	
 	
 	<div id="homemiddle" class="col-xs-12 col-sm-6">
 
@@ -107,7 +106,11 @@
 		
 	
 	</div>
-	<div class="col-xs-12 col-sm-3">
+	<div class="col-xs-12 col-sm-2">
+	</div>
+	<div class="col-xs-12 col-sm-4">
+	<img src="http://localhost:8888/devluxe/wp-content/uploads/2017/02/MG_7613-2.jpg">
+	
 	</div>
 
 	

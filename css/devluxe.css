@@ -2,7 +2,7 @@ body {
 margin-top: 50px;
 background-color: aliceblue;
 font-family: Sentinel SSm A, Sentinel SSm B; /* replaced san serif */
-font-size: 17px; /* bootstrap was 14px */
+font-size: 19px; /* bootstrap was 14px */
 }
 
 .carousel { background: #000; }
@@ -58,11 +58,11 @@ width:1050px
 #homemiddle {
 	margin-top: 10px;
 	border-top-width: 0px;
-	border-style: solid;
+	border-style: ;
 }
 
 #aboveslider {
-	margin-top: -13px;
+	margin-top: -21px;
 }
 
 
@@ -71,5 +71,13 @@ width:1050px
 	h1: text-align: right;
 }
 
+/* re-sized Bootstrap upper left Brand Site Name in Header */
+.navbar-brand {
+	font-size: 19px;
+}
 
-
+img {
+    border: 5px;
+    margin-top: 45px;
+    border-radius: 5px;
+}
