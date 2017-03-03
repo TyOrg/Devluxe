@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="row">
+<div id="aboveslider" class="row">
 		
 		<div class="col-xs-12">
 		
@@ -84,8 +84,10 @@
 </div>
 
 <div class="row">
+	<div class="col-xs-12 col-sm-3">
+	</div>
 	
-	<div class="col-xs-12 col-sm-8">
+	<div id="homemiddle" class="col-xs-12 col-sm-6">
 
 		<?php 
 		
@@ -105,6 +107,9 @@
 		
 	
 	</div>
+	<div class="col-xs-12 col-sm-3">
+	</div>
+
 	
 	<!--<div class="col-xs-12 col-sm-4">
 		<?php get_sidebar(); ?>
