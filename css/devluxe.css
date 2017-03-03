@@ -1,6 +1,8 @@
 body { 
 margin-top: 50px;
 background-color: aliceblue;
+font-family: Sentinel SSm A, Sentinel SSm B; /* replaced san serif */
+font-size: 17px; /* bootstrap was 14px */
 }
 
 .carousel { background: #000; }
