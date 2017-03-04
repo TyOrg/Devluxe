@@ -12,7 +12,6 @@
  
 			<?php
 
-				
 					
 					$args = array( 
 						'post_type' => 'portfolio',
