@@ -14,6 +14,7 @@
 
 					
 					$args = array( 
+						//'post_parent' => 'post',
 						'post_type' => 'portfolio',
 						'posts_per_page' => -1,
 					);
@@ -85,7 +86,7 @@
 <div class="row">
 	
 	
-	<div id="homemiddle" class="col-xs-12 col-sm-6">
+	<div id="homemiddle" class="col-xs-12 col-sm-7">
 
 		<?php 
 		
@@ -105,7 +106,7 @@
 		
 	
 	</div>
-	<div class="col-xs-12 col-sm-2">
+	<div class="col-xs-12 col-sm-1">
 	</div>
 	<div class="col-xs-12 col-sm-4">
 	<img src="http://localhost:8888/devluxe/wp-content/uploads/2017/02/MG_7613-2.jpg">
