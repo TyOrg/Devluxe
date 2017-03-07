@@ -1,4 +1,8 @@
+
+
 <?php get_header(); ?>
+</div>
+<div class="full-width-container">
 
 <div id="aboveslider" class="row">
 		
@@ -83,6 +87,10 @@
 		
 </div>
 
+</div>
+<div class="container">
+
+
 <div class="row">
 	
 	
@@ -105,12 +113,13 @@
 ?>
 		
 	
-	</div>
+</div>
 	<div class="col-xs-12 col-sm-1">
 	</div>
-	<div class="col-xs-12 col-sm-4">
-	<img src="http://localhost:8888/devluxe/wp-content/uploads/2017/02/MG_7613-2.jpg">
-	
+	<div id="home-photo" class="col-xs-12 col-sm-4">
+	<div id="home-photo-inner">
+	<img src="wp-content/uploads/2017/02/MG_7613-2.jpg">
+	</div>
 	</div>
 
 	

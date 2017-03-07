@@ -6,7 +6,7 @@ font-size: 19px; /* bootstrap was 14px */
 }
 
 .carousel { background: #000; }
-.carousel .item { height: 250px; overflow: hidden; }
+.carousel .item { height: 150px; overflow: hidden; }
 .carousel .item img { width: 100%; height: auto; margin-top: -35%; }
 .carousel-caption a { color: #fff; }
 
@@ -62,7 +62,7 @@ width:1050px
 }
 
 #aboveslider {
-	margin-top: -40px;
+	*margin-top: -105px;
 }
 
 
@@ -78,12 +78,78 @@ width:1050px
 
 img {
     border: 5px;
-    margin-top: 45px;
+    margin-top: 110px;
     border-radius: 5px;
 }
 
 h1 a {
-color: black;
+	color: black;
+}
+
+.menu {
+	background-color: lightgray;
+}
+
+hr {
 
 }
+
+.col-xs-12 {
+	margin-top: 0px;
+}
+
+.full-width-container {
+ 	width: 100%;
+ 	padding: 0px;
+ }
+
+/*
+.navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 2px;
+    */
+
+/*adjusting Bootstrap by adding top and bottom padding*/
+.navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+    padding-bottom: 1px;
+    padding-top: 1px;
+}
+
+.carousel {
+    position: ;
+    margin-right: -15px;
+    padding-right: 0px;
+    margin-left: 0px
+}
+
+#footer {
+	background-color: #f4b642;
+	padding-bottom: 15px;
+	margin-bottom: 0px;
+	margin-right: -14px;
+}
+
+#home-photo {
+	background-color: #f4d341;
+	border-radius: 7px;
+	margin-top: 10px;
+}
+
+#home-photo-inner {
+	background-color: #f4b642;
+	border-radius: 7px;
+	margin-top: 50%;
+	margin-left: -14px;
+}
+
+#post-content-background {
+	background-color: lightyellow;
+	border-radius: 20px;
+}
+
+
+
+
 

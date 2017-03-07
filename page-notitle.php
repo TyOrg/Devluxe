@@ -5,6 +5,7 @@ Template Name: Page No Title
 */
 ?>
 
+<html>
 <?php get_header(); ?>
 
 	<?php 
@@ -12,19 +13,21 @@ Template Name: Page No Title
 		
 		while( have_posts() ): the_post(); ?>
 
-			<h1>This is my Static Title</h1>
+			<h1><?php the_title(); ?></h1>
 
 <!--			<small>Posted <?php the_time('F j, Y'); ?>, in <?php the_category(); ?></small> -->
-																				
+							
+	<div>													
 			<p><?php the_content(); ?></p>
 
-		<hr>
+		
 
 		<?php endwhile;
 
 	endif;
 	
 	?>
-
+	</div>
+</html>
 <?php get_footer(); ?>
 
