@@ -85,7 +85,7 @@ width:1050px
 }
 
 #aboveslider {
-	*margin-top: -105px;
+	margin-top: -105px;
 }
 
 
@@ -103,7 +103,6 @@ img {
     border: 5px;
     margin-top: 110px;
     border-radius: 18px;
-    margin-left: -15px;
     padding-left: 0px;
 
 
@@ -126,7 +125,7 @@ hr {
 }
 
 .full-width-container {
- 	width: 100%;
+ 	width: 98%;
  	padding: 0px;
  }
 
@@ -146,7 +145,8 @@ hr {
 
 .carousel {
     position: ;
-    margin-right: -15px;
+    margin-right: -25px;
+    /*margin-right: -15px;*/
     padding-right: 0px;
     margin-left: 0px
 }
@@ -165,6 +165,12 @@ hr {
     border-style: double;
     border-color: black;
 }
+
+#home-photo img {
+    margin-left: -15px;
+}
+
+
 
 
 
