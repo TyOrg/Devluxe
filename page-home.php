@@ -4,7 +4,7 @@
 </div>
 <div class="full-width-container">
 
-<div id="aboveslider" class="row">
+  <div id="aboveslider" class="row">
 		
 		<div class="col-xs-12">
 		
@@ -14,61 +14,65 @@
 		  <div class="carousel-inner" role="listbox">
 
  
-			<?php
+					<?php
 
-					
-					$args = array( 
-						//'post_parent' => 'post',
-						'post_type' => 'portfolio',
-						'posts_per_page' => -1,
-					);
-
-				
-					$bullets = '';
-
-					$carouselImages = new WP_Query( $args ); 
-					
-					if( $carouselImages->have_posts() ):
-					$count = 0;
-
-
-						
-						while( $carouselImages->have_posts() ): $carouselImages->the_post(); ?>
 							
-							<div class="item <?php if($count == 0): echo 'active'; endif; ?>">
-						      <?php the_post_thumbnail('full'); ?>
-						      <div class="carousel-caption">
-							      <?php the_title( sprintf('<h1 class="entry-title"><a href="%s">', esc_url( get_permalink() ) ),'</a></h1>' ); ?>
-	
-								  <small><?php/* the_category(' '); */?></small>
-						      </div>
-						    </div>
-						    
+							$args = array( 
+								//'post_parent' => 'post',
+								'post_type' => 'carouselslider',
+								'posts_per_page' => -1,
+							);
 
-						    <?php $bullets .= '<li data-target="#devluxe-carousel" data-slide-to="'.$count.'" class="'; ?>
-						    
-						    <?php if($count == 0): $bullets .='active'; endif; ?>
-						    
-						    <?php  $bullets .= '"></li>'; ?>
 						
-						<?php 
-						$count++;
+							$bullets = '';
 
-						endwhile;
+							$carouselImages = new WP_Query( $args ); 
+							
+							if( $carouselImages->have_posts() ):
+							$count = 0;
+
+
+								
+								while( $carouselImages->have_posts() ): $carouselImages->the_post(); ?>
+									
+									<div class="item <?php if($count == 0): echo 'active'; endif; ?>">
+								      <?php the_post_thumbnail('full'); ?>
+								      <div class="carousel-caption">
+
+								      		<!-- Removed hyperlink from Carousel Titles -->
+									      <?php/* the_title( sprintf('<h1 class="entry-title"><a href="%s">', esc_url( get_permalink() ) ),'</a></h1>' ); */?>
+
+									      <?php the_title('<h1 class="entry-title">'); ?>
+			
+										  <small><?php/* the_category(' '); */?></small>
+								      </div>
+								    </div>
+								    
+
+								    <?php $bullets .= '<li data-target="#devluxe-carousel" data-slide-to="'.$count.'" class="'; ?>
+								    
+								    <?php if($count == 0): $bullets .='active'; endif; ?>
+								    
+								    <?php  $bullets .= '"></li>'; ?>
+								
+								<?php 
+								$count++;
+
+								endwhile;
+								
+							endif;
+							
+							wp_reset_postdata();
+
 						
-					endif;
-					
-					wp_reset_postdata();
-
-				
-			?>
+					?>
 
 
 
-			<!-- Indicators -->
-			  <ol class="carousel-indicators">
-			    <?php echo $bullets; ?>
-			  </ol>
+					<!-- Indicators -->
+					  <ol class="carousel-indicators">
+					    <?php echo $bullets; ?>
+					  </ol>
 		    
 		  </div>
 		
@@ -88,7 +92,9 @@
 </div>
 
 </div>
-<div class="container">
+
+
+<div class="container"><!--this div closes on footer page?-->
 
 
 <div class="row">
@@ -108,22 +114,23 @@
 			
 		endif;
 		
-		
 				
-?>
-		
+		?>
+			
+    </div>
+
+		<div class="col-xs-12 col-sm-1">
+		</div>
+		<div id="home-photo" class="col-xs-12 col-sm-4">
+		<img src="wp-content/uploads/2017/02/MG_7613-2.jpg">
+
+		</div>
 	
-</div>
-	<div class="col-xs-12 col-sm-1">
-	</div>
-	<div id="home-photo" class="col-xs-12 col-sm-4">
-	<img src="wp-content/uploads/2017/02/MG_7613-2.jpg">
-	</div>
 
 	
-	<!--<div class="col-xs-12 col-sm-4">
-		<?php get_sidebar(); ?>
-	</div>-->
+				<!--<div class="col-xs-12 col-sm-4">
+					<?php get_sidebar(); ?>
+				</div>-->
 	
 </div>
 
