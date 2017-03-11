@@ -122,7 +122,7 @@
 		<div class="col-xs-12 col-sm-1">
 		</div>
 		<div id="home-photo" class="col-xs-12 col-sm-4">
-		<img src="wp-content/uploads/2017/02/MG_7613-2.jpg">
+		<img src="wp-content/uploads/2017/02/MG_7613-2.jpg" style="max-width:100%;height:auto;">
 
 		</div>
 	

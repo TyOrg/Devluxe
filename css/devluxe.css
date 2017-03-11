@@ -49,12 +49,67 @@ line-height: 1em;
 margin-top: -0.5em;
  }
 
-/*  Changing Bootstrap default of min-width on 1200px desktop. */  
- @media (min-width:1200px){
+
+
+
+
+
+
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/*html {
+	width: 1080px;
+}
+*/
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	html {
+		width: 1105px;	
+	}
+	
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	html {
+		width: 1105px;
+	}
+}
+
+
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+	html {
+	  position: relative;
+	  min-height: 100%;
+	  width: 1251px;
+	  
+ } 
+
 	.container {
-width:1050px
+		width: 1050px;   /*Changing Bootstrap default of min-width on 1200px desktop. */
+ }
+
+
+	.full-width-container {
+ 	width: 98%;
+ 	padding: 0px;
+ }
+
+
+
+
+
+
 }
-}
+
 
 
 
@@ -89,10 +144,6 @@ width:1050px
 }
 
 
-/*front home page post content */
-.post-32 {
-	
-}
 
 /* re-sized Bootstrap upper left Brand Site Name in Header */
 .navbar-brand {
@@ -124,10 +175,7 @@ hr {
 	margin-top: 0px;
 }
 
-.full-width-container {
- 	width: 98%;
- 	padding: 0px;
- }
+
 
 /*
 .navbar-fixed-top {
@@ -151,12 +199,7 @@ hr {
     margin-left: 0px
 }
 
-#footer {
-	background-color: #f4b642;
-	padding-bottom: 15px;
-	/*margin-bottom: 0px;*/
-	margin-right: -14px;
-}
+
 
 #home-photo {
 	border-radius: 20px;
@@ -169,6 +212,8 @@ hr {
 #home-photo img {
     margin-left: -15px;
 }
+
+
 
 
 
@@ -195,6 +240,7 @@ hr {
 html {
   position: relative;
   min-height: 100%;
+  
 
 }
 
