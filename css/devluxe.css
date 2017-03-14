@@ -1,15 +1,21 @@
+
+
+
 body { 
-margin-top: 50px;
-margin-bottom: 60px; /* sticky footer code from Bootstrap */
+margin: 50px 0 60px;
+/*margin-top: 50px;*/
+/*margin-bottom: 60px; /* sticky footer code from Bootstrap */
 background-color: rgba(51, 51, 51, 0.11);
 font-family: Sentinel SSm A, Sentinel SSm B; /* replaced san serif */
 font-size: 19px; /* bootstrap was 14px */
 }
 
-.carousel { background: #000; }
+.carousel { background: #000; margin-right: 0; margin-left: 0; }
 .carousel .item { height: 150px; overflow: hidden; }
 .carousel .item img { width: 100%; height: auto; margin-top: -35%; }
+.carousel-caption { bottom: 20%; }
 .carousel-caption a { color: #fff; }
+.carousel-caption h1 { font-size: 30px }
 
 .blog-element { display: block; height: 200px; overflow: hidden; background-position: center center; background-repeat: no-repeat; background-size: cover; }
 repeat; background-size: cover; }
@@ -56,60 +62,6 @@ margin-top: -0.5em;
 
 
 
-/* Extra small devices (phones, less than 768px) */
-/* No media query since this is the default in Bootstrap */
-
-/*html {
-	width: 1080px;
-}
-*/
-
-
-/* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-	html {
-		width: 1105px;	
-	}
-	
-
-}
-
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-	html {
-		width: 1105px;
-	}
-}
-
-
-
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-
-	html {
-	  position: relative;
-	  min-height: 100%;
-	  width: 1251px;
-	  
- } 
-
-	.container {
-		width: 1050px;   /*Changing Bootstrap default of min-width on 1200px desktop. */
- }
-
-
-	.full-width-container {
- 	width: 98%;
- 	padding: 0px;
- }
-
-
-
-
-
-
-}
-
 
 
 
@@ -139,10 +91,11 @@ margin-top: -0.5em;
 	border-style: ;
 }
 
+/*
 #aboveslider {
 	margin-top: -105px;
 }
-
+*/
 
 
 /* re-sized Bootstrap upper left Brand Site Name in Header */
@@ -171,6 +124,12 @@ hr {
 
 }
 
+
+.col-xs-4 {
+    text-align: center;
+}
+
+
 .col-xs-12 {
 	margin-top: 0px;
 }
@@ -191,13 +150,14 @@ hr {
     padding-top: 1px;
 }
 
+
 .carousel {
     position: ;
-    margin-right: -25px;
     /*margin-right: -15px;*/
     padding-right: 0px;
-    margin-left: 0px
+    
 }
+
 
 
 
@@ -250,20 +210,97 @@ html {
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 50px;
   background-color: #e11b5c;
   padding: 13px 0px 7px;
+}
+
+.footer-wrapper {
+	margin-top: 50%;
+
 }
 
 #footer-right {
 	font-size: 14px;
 	color: lightgray;
 	padding: 10px;
+	text-align: center;
 }
 
 .social-icon a {
 	color: lightgray;
+	text-align: center;
 }
+
+
+
+
+
+
+/* MEDIA QUERIES BELOW */
+
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/*html {
+	width: 1080px;
+}
+*/
+
+
+
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	/*html {
+		width: 1105px;	
+	}*/
+	.footer {
+		height: 50px;
+	}
+	
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	/*html {
+		width: 1105px;*/
+	}
+
+.container {
+		max-width: 1050px;   /*Changing Bootstrap default of min-width on 1200px desktop. */
+ }
+
+
+
+}
+
+
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+	/*html {
+	  position: relative;
+	  min-height: 100%;
+	  width: 1251px;*/
+
+	  	.container {
+		max-width: 1050px;   /*Changing Bootstrap default of min-width on 1200px desktop. */
+ }
+	  
+
+	.full-width-container {
+ 	width: 98%;
+ 	padding: 0px;
+ }
+
+
+}
+
+
 
 
 

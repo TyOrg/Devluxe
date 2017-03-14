@@ -6,7 +6,7 @@
 
   <div id="aboveslider" class="row">
 		
-		<div class="col-xs-12 col-md-12">
+		<div class="col-md-12">
 		
 		<div id="devluxe-carousel" class="carousel slide" data-ride="carousel">
 		
@@ -100,7 +100,7 @@
 <div class="row">
 	
 	
-	<div id="homemiddle" class="col-xs--12 col-sm-7">
+	<div id="homemiddle" class="col-md-12 col-sm-7">
 
 		<?php 
 		
@@ -121,10 +121,10 @@
 
 		
 		<!--<div id="home-photo" class="col-md-12 col-sm-4 col-sm-offset-1">-->
-		<div id="home-photo" class="col-xs-12 col-sm-4 col-sm-offset-1">
+		<div id="home-photo" class="col-md-12 col-sm-4 col-sm-offset-1">
 
 
-		<img src="wp-content/uploads/2017/02/MG_7613-2.jpg">
+		<!--<img src="wp-content/uploads/2017/02/MG_7613-2.jpg">-->
 		
 
 		</div>
