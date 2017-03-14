@@ -2,11 +2,13 @@
 
 <?php get_header(); ?>
 </div>
+
+
 <div class="full-width-container">
 
   <div id="aboveslider" class="row">
 		
-		<div class="col-xs-12 col-md-12">
+		<div>
 		
 		<div id="devluxe-carousel" class="carousel slide" data-ride="carousel">
 		
@@ -86,12 +88,13 @@
 		    <span class="sr-only">Next</span>
 		  </a>
 		</div>
-		
+	
 		</div>
 		
 </div>
 
 </div>
+
 
 
 <div class="container"><!--this div closes on footer page?-->
@@ -100,7 +103,7 @@
 <div class="row">
 	
 	
-	<div id="homemiddle" class="col-xs--12 col-sm-7">
+	<div id="homemiddle" class="col-xs-12 col-sm-7">
 
 		<?php 
 		

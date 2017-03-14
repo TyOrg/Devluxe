@@ -91,17 +91,19 @@ margin-top: -0.5em;
 	border-style: ;
 }
 
-/*
+
 #aboveslider {
-	margin-top: -105px;
+	margin: 0; 
+	padding: 0;
 }
-*/
+
 
 
 /* re-sized Bootstrap upper left Brand Site Name in Header */
 .navbar-brand {
 	font-size: 19px;
 }
+
 
 img {
     border: 5px;
@@ -120,9 +122,6 @@ h1 a {
 	background-color: lightgray;
 }
 
-hr {
-
-}
 
 
 .col-xs-4 {
@@ -232,7 +231,10 @@ html {
 }
 
 
-
+	.full-width-container {
+ 	width: 100%;
+ 	padding: 0px;
+ }
 
 
 
@@ -292,10 +294,7 @@ html {
  }
 	  
 
-	.full-width-container {
- 	width: 98%;
- 	padding: 0px;
- }
+
 
 
 }
