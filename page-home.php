@@ -105,7 +105,7 @@
     <div class="row">
 
 
-        <div id="homemiddle" class="col-xs-12 col-sm-7">
+        <div id="homemiddle" class="col-xs-12 col-sm-6">
 
             <?php 
 		
@@ -125,8 +125,7 @@
         </div>
 
         <!--<div id="home-photo" class="col-md-12 col-sm-4 col-sm-offset-1">-->
-        <div id="home-photo" class="col-xs-12 col-sm-4 col-sm-offset-1
-">
+        <div id="home-photo" class="col-xs-12 col-sm-offset-1 col-sm-5">
 
             <img src="wp-content/uploads/2017/02/MG_7613-2.jpg">
 

@@ -136,6 +136,10 @@ img {
     margin-top: 110px;
     border-radius: 18px;
     padding-left: 0px;
+    }
+
+
+
 }
 h1 a {
     color: black;
@@ -175,9 +179,14 @@ h1 a {
     margin-top: 78px;
     border-style: double;
     border-color: black;
+
 }
 #home-photo img {
     margin-left: -15px;
+    /*margin-left: 0;
+    margin-right: 0
+    padding: 0px;
+    width: 100% ;*/
 }
 
 /*
@@ -210,11 +219,10 @@ html {
     padding: 13px 0px 7px;
 }
 .footer-wrapper {
-    margin-top: 50%;
+    margin-top: 30%;
     margin-left: 0px;
     margin-right: 0px;
 }
-
 #footer-right {
     font-size: 14px;
     color: lightgray;
@@ -240,4 +248,54 @@ html {
 	width: 1080px;
 }
 */
+
+
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    /*html {
+		width: 1105px;	
+	}*/
+    
+    
+    .footer {
+        height: 50px;
+    }
+    
+    
+    .no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+    }
+    
+    
+    
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    
+.container {
+    max-width: 1050px;
+    /*Changing Bootstrap default of min-width on 1200px desktop. */
+}
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    /*html {
+	  position: relative;
+	  min-height: 100%;
+	  width: 1251px;*/
+    
+    
+    .container {
+        max-width: 1050px;
+        /*Changing Bootstrap default of min-width on 1200px desktop. */
+    }
+}
+
+
 
