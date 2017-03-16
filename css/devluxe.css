@@ -1,25 +1,60 @@
-
-
-
-body { 
-margin: 50px 0 60px;
-/*margin-top: 50px;*/
-/*margin-bottom: 60px; /* sticky footer code from Bootstrap */
-background-color: rgba(51, 51, 51, 0.11);
-font-family: Sentinel SSm A, Sentinel SSm B; /* replaced san serif */
-font-size: 19px; /* bootstrap was 14px */
+body {
+    margin: 50px 0 60px;
+    /*margin-top: 50px;*/
+    /*margin-bottom: 60px; /* sticky footer code from Bootstrap */
+    background-color: rgba(51, 51, 51, 0.11);
+    font-family: Sentinel SSm A, Sentinel SSm B;
+    /* replaced san serif */
+    font-size: 19px;
+    /* bootstrap was 14px */
 }
 
-.carousel { background: #000; margin-right: 0; margin-left: 0; }
-.carousel .item { height: 150px; overflow: hidden; }
-.carousel .item img { width: 100%; height: auto; margin-top: -35%; }
-.carousel-caption { bottom: 20%; }
-.carousel-caption a { color: #fff; }
-.carousel-caption h1 { font-size: 30px }
+.carousel {
+    background: #000;
+    margin-right: 0;
+    margin-left: 0;
+}
 
-.blog-element { display: block; height: 200px; overflow: hidden; background-position: center center; background-repeat: no-repeat; background-size: cover; }
-repeat; background-size: cover; }
-.blog-element a { color: #fff; text-shadow: 0 1px 3px rgba(0,0,0,.5) }
+.carousel .item {
+    height: 150px;
+    overflow: hidden;
+}
+
+.carousel .item img {
+    width: 100%;
+    height: auto;
+    margin-top: -35%;
+}
+
+.carousel-caption {
+    bottom: 20%;
+}
+
+.carousel-caption a {
+    color: #fff;
+}
+
+.carousel-caption h1 {
+    font-size: 30px
+}
+
+.blog-element {
+    display: block;
+    height: 200px;
+    overflow: hidden;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+repeat;
+background-size: cover;
+
+}
+.blog-element a {
+    color: #fff;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, .5)
+}
 
 /*
 .second-row-padding:nth-child(2) { padding-right: 0; }
@@ -31,39 +66,45 @@ repeat; background-size: cover; }
 */
 
 /*I commented this out before to get rid of upper left dot in front page.*/
-no-margin { margin: 0; }  
-
-.blog-item { padding: 0; }
+no-margin {
+    margin: 0;
+}
+.blog-item {
+    padding: 0;
+}
 
 /* header search form ============*/
-.search-form-container { display: none; position: fixed; top: 50px; left: 0; right: 0; background-color: rgba(0,0,0,.35); padding: 20px; z-index: 2; }
-.open-search a { font-size: 0; width: 30px; position: relative; }
-.open-search a:after { 
-position: absolute; 
-display: block;
-font-family: 'Glyphicons Halflings';
-font-style: normal;
-font-weight: 400;
-line-height: 1;
--webkit-font-smoothing: antialiased;
--moz-osx-font-smoothing: grayscale;
-content:"\e003";
-font-size: 20px;
-left: 0;
-top: 50%;
-line-height: 1em;
-margin-top: -0.5em;
- }
-
-
-
-
-
-
-
-
-
-
+.search-form-container {
+    display: none;
+    position: fixed;
+    top: 50px;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .35);
+    padding: 20px;
+    z-index: 2;
+}
+.open-search a {
+    font-size: 0;
+    width: 30px;
+    position: relative;
+}
+.open-search a:after {
+    position: absolute;
+    display: block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\e003";
+    font-size: 20px;
+    left: 0;
+    top: 50%;
+    line-height: 1em;
+    margin-top: -0.5em;
+}
 
 /*
 #copy, #logo {
@@ -76,64 +117,38 @@ margin-top: -0.5em;
     left:0;
 }
 */
-
-
-
-
-
-
-
-
-
 #homemiddle {
-	margin-top: 10px;
-	border-top-width: 0px;
-	border-style: ;
+    margin-top: 10px;
+    border-top-width: 0px;
+    border-style: ;
 }
-
-
 #aboveslider {
-	margin: 0; 
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
-
-
 
 /* re-sized Bootstrap upper left Brand Site Name in Header */
 .navbar-brand {
-	font-size: 19px;
+    font-size: 19px;
 }
-
-
 img {
     border: 5px;
     margin-top: 110px;
     border-radius: 18px;
     padding-left: 0px;
-
-
 }
-
 h1 a {
-	color: black;
+    color: black;
 }
-
 .menu {
-	background-color: lightgray;
+    background-color: lightgray;
 }
-
-
-
 .col-xs-4 {
     text-align: center;
 }
-
-
 .col-xs-12 {
-	margin-top: 0px;
+    margin-top: 0px;
 }
-
-
 
 /*
 .navbar-fixed-top {
@@ -148,36 +163,22 @@ h1 a {
     padding-bottom: 1px;
     padding-top: 1px;
 }
-
-
 .carousel {
     position: ;
     /*margin-right: -15px;*/
-    padding-right: 0px;
     
+    padding-right: 0px;
 }
-
-
-
-
 #home-photo {
-	border-radius: 20px;
-	background-color: #838176;
+    border-radius: 20px;
+    background-color: #838176;
     margin-top: 78px;
     border-style: double;
     border-color: black;
 }
-
 #home-photo img {
     margin-left: -15px;
 }
-
-
-
-
-
-
-
 
 /*
 #home-photo-inner {
@@ -187,123 +188,56 @@ h1 a {
 	margin-left: -14px;
 }
 */
-
 #post-content-background {
-	border-radius: 20px;
+    border-radius: 20px;
     border-style: double;
-    border-color: #838176;/*#f4b642;*/
+    border-color: #838176;
+    /*#f4b642;*/
 }
-
 
 /* sticky footer bootstrap code */
 html {
-  position: relative;
-  min-height: 100%;
-  
-
+    position: relative;
+    min-height: 100%;
 }
-
-
 .footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  background-color: #e11b5c;
-  padding: 13px 0px 7px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    
+    background-color: #e11b5c;
+    padding: 13px 0px 7px;
 }
-
 .footer-wrapper {
-	margin-top: 50%;
-
+    margin-top: 50%;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 #footer-right {
-	font-size: 14px;
-	color: lightgray;
-	padding: 10px;
-	text-align: center;
+    font-size: 14px;
+    color: lightgray;
+    padding: 10px;
+    text-align: center;
 }
-
 .social-icon a {
-	color: lightgray;
-	text-align: center;
+    color: lightgray;
+    text-align: center;
 }
-
-
-	.full-width-container {
- 	width: 100%;
- 	padding: 0px;
- }
-
-
+.full-width-container {
+    width: 100%;
+    padding: 0px;
+}
 
 /* MEDIA QUERIES BELOW */
 
-
 /* Extra small devices (phones, less than 768px) */
+
 /* No media query since this is the default in Bootstrap */
 
 /*html {
 	width: 1080px;
 }
 */
-
-
-
-
-
-/* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-	/*html {
-		width: 1105px;	
-	}*/
-	.footer {
-		height: 50px;
-	}
-	
-
-}
-
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-	/*html {
-		width: 1105px;*/
-	}
-
-.container {
-		max-width: 1050px;   /*Changing Bootstrap default of min-width on 1200px desktop. */
- }
-
-
-
-}
-
-
-
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-
-	/*html {
-	  position: relative;
-	  min-height: 100%;
-	  width: 1251px;*/
-
-	  	.container {
-		max-width: 1050px;   /*Changing Bootstrap default of min-width on 1200px desktop. */
- }
-	  
-
-
-
-
-}
-
-
-
-
-
-
-
-
 
