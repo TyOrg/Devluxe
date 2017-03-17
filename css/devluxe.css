@@ -133,8 +133,7 @@ no-margin {
 }
 img {
     border: 5px;
-    margin-top: 110px;
-    border-radius: 18px;
+    border-radius: 2px;
     padding-left: 0px;
     }
 
@@ -175,14 +174,18 @@ h1 a {
 }
 #home-photo {
     border-radius: 20px;
-    background-color: #838176;
+    background-color: #324f7b;
     margin-top: 78px;
     border-style: double;
-    border-color: black;
+    border-color: #838176;
 
 }
 #home-photo img {
     margin-left: -15px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-top: 100px;
+
     /*margin-left: 0;
     margin-right: 0
     padding: 0px;
@@ -219,7 +222,7 @@ html {
     padding: 13px 0px 7px;
 }
 .footer-wrapper {
-    margin-top: 30%;
+    margin-top: 10%;
     margin-left: 0px;
     margin-right: 0px;
 }
