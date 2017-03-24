@@ -7,10 +7,16 @@
 */
 
 function devluxe_script_enqueue() {
-	//css
+	
+    //fonts
+     wp_enqueue_style( 'googlefonts_css', '//fonts.googleapis.com/css?family=Audiowide' );
+    
+    
+    //css
 	wp_enqueue_style('bootstrap', get_template_directory_uri() . '/css/bootstrap.min.css', array(), '3.3.4', 'all');
 	wp_enqueue_style('customstyle', get_template_directory_uri() . '/css/devluxe.css', array(), '1.0.0', 'all');
 	wp_enqueue_style('fontstyle-awesome', get_template_directory_uri() . '/css/font-awesome.min.css');
+   
 
 
 
