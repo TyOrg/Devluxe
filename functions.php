@@ -10,6 +10,17 @@ function devluxe_script_enqueue() {
 	
     //fonts
      wp_enqueue_style( 'googlefonts_css', '//fonts.googleapis.com/css?family=Audiowide' );
+     wp_enqueue_style( 'googlefonts_css', '//fonts.googleapis.com/css?family=Lato' );
+     wp_enqueue_style( 'googlefonts_css', '//fonts.googleapis.com/css?family=Cabin' );
+     wp_enqueue_style( 'googlefonts_css', '//fonts.googleapis.com/css?family=Old+Standard+TT' );
+     wp_enqueue_style( 'googlefonts_css', '//fonts.googleapis.com/css?family=Raleway' );
+    
+    
+
+    
+    
+    
+
     
     
     //css

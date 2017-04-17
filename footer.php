@@ -11,7 +11,7 @@
             <div class="col-xs-4 col-sm-2 social-icon"><a href="https://github.com/temoty"><i class="fa fa-lg fa-github" aria-hidden="true"></i></a></div>
             <div class="col-xs-4 col-sm-2 social-icon"><a href="https://www.linkedin.com/in/tyler-cornett-a8a815100/"><i class="fa fa-lg fa-linkedin" aria-hidden="true"></i></a></div>
             <div id="footer-right" class="col-xs-12 col-sm-3">Copyright ©
-                <?php the_date('Y') ?> Deluxe.</div>
+                <?php the_date('Y') ?> Devluxe.</div>
     </footer>
     <!--</div>-->
 </div>

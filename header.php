@@ -67,7 +67,8 @@
 
 
                 </div>
-                <div class="col-xs-12">
+                
+            <!--    <div class="col-xs-12">
                     <div class="search-form-container">
                         <div class="container">
                             <?php get_search_form(); ?>
@@ -75,7 +76,7 @@
 
                     </div>
 
-                </div>
+                </div> -->
 
             </div>
 
