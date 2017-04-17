@@ -105,7 +105,8 @@
     <div class="row">
 
 
-        <div id="homemiddle" class="col-xs-12">
+        <div id="homemiddle" class="col-xs-12 col-md-8 col-md-offset-2">
+           
 
             <?php 
 		
