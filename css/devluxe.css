@@ -261,7 +261,7 @@ html {
     margin-right: 0px;
 }
 #footer-right {
-    font-size: 14px;
+    font-size: 10px;
     color: #fff;
     padding: 10px;
     text-align: center;
@@ -301,9 +301,11 @@ html {
 	}*/
     
     
+    /*
     .footer {
         height: 50px;
     }
+    */
     
     
     .no-gutter > [class*='col-'] {
