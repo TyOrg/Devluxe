@@ -47,11 +47,17 @@ body {
 .entry-header h1 {
     /*font-family: 'Cabin', sans-serif;*/
     font-family: 'Raleway', sans-serif;
+    margin-top: 1.5em;
     
+}
+
+p {
+    line-height: 2em;
 }
 
 h1, h2 {
     font-family: 'Raleway', sans-serif;
+     margin-top: 1.5em;
 }
 
 h3 {
@@ -227,6 +233,14 @@ h1 a {
     #f4b642;*/
 }
 
+
+#post-content-background img {
+
+border-radius: 50%;
+    float: none;
+    padding: 1em;
+}
+
 /* sticky footer bootstrap code */
 html {
     position: relative;
@@ -295,6 +309,10 @@ html {
     .no-gutter > [class*='col-'] {
     padding-right:0;
     padding-left:0;
+    }
+    
+    #post-content-background img {
+    float: none;    
     }
     
     

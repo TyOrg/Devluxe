@@ -3,7 +3,7 @@
 /*
 	Template Name: Portfolio Template
 */
-	
+
 get_header(); ?>
 
 	<?php 

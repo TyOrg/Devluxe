@@ -106,7 +106,6 @@
 
 
         <div id="homemiddle" class="col-xs-12 col-md-8 col-md-offset-2">
-           
 
             <?php 
 		
@@ -123,7 +122,11 @@
 				
 		?>
 
+
         </div>
+        
+                              <!--     <img src="wp-content/loads/2017/02/MG_7612-150x150.jpg">-->
+        
 
         <!--<div id="home-photo" class="col-md-12 col-sm-4 col-sm-offset-1">-->
        
