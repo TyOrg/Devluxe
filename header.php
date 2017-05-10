@@ -34,7 +34,7 @@
 
 
                     <!-- Navbar from Bootstrap Components Tab -->
-
+                    
                     <nav class="navbar navbar-inverse navbar-fixed-top">
                         <div class="container">
                             <!-- Brand and toggle get grouped for better mobile display -->
@@ -50,7 +50,7 @@
                                 </a>
                             </div>
                             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                                <?php 
+                                <?php/* 
 			wp_nav_menu(array(
 				'theme_location'=>'primary',
 				'container'=>false,
@@ -58,13 +58,13 @@
         'walker' => new Walker_Nav_Primary()
 			)
 		  ); 
-		?>
+		*/?>  
                             </div>
 
                         </div>
-                    </nav>
+                    </nav> 
 
-                    <!--End of Bootstrap Navbar-->
+                <!-- End of Bootstrap Navbar -->
 
 
 
