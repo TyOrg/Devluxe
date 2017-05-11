@@ -19,6 +19,29 @@ a {
     color: blue;
 }
 
+
+#logo-color {
+    
+color: #73EEDC;
+    
+}
+
+
+.navbar-brand a {
+    color: #73EEDC;
+}
+
+.navbar-header a {
+    color: #73EEDC;
+}
+
+
+#header-background-color {
+    background-color: #04030F;
+}
+
+
+
 .button {
     background-color: #4890a9;
     border: 1px;
@@ -172,7 +195,7 @@ no-margin {
     left:0;
 }
 */
-#homemiddle {
+.homemiddle {
     margin-top: 10px;
     border-top-width: 0px;
     border-style: ;
@@ -278,7 +301,7 @@ html {
     width: 100%;
     /* Set the fixed height of the footer here */
     
-    background-color: #ff3f00;  /*#e11b5c*/
+    background-color: #5F1A37;  /*#e11b5c*/
     padding: 13px 0px 7px;
 }
 .footer-wrapper {
@@ -304,6 +327,7 @@ html {
 .navbar-brand {
     font-family: 'Audiowide';
     font-size: 35px;
+    color: #73EEDC;
 }
 
 
