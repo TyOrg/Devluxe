@@ -11,13 +11,14 @@ body {
     font-family: 'Raleway', sans-serif; /*'Merriweather', serif;*/
     /*Sentinel SSm A, Sentinel SSm B;*/
     /* replaced san serif */
-    font-size: 19px;
+    font-size: 17px;
     /* bootstrap was 14px */
 }
 
 a {
     color: blue;
 }
+
 
 
 #logo-color {
@@ -341,6 +342,20 @@ html {
     width: 60%;
 }
 
+
+
+/*  Styles for Plugin Page Builder by SiteOrigin */
+
+#pgc-32-0-0 {
+    color: red;
+    background-color: #f8f9fb;
+    
+}
+
+#pg-32-1 {
+    background-color: #ebecf0;
+    
+}
 
 
 
