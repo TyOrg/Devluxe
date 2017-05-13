@@ -17,7 +17,7 @@
 <?php
 
   		if( is_front_page() ):
-  			$devluxe_classes = array( 'devluxe-class', 'my-class' );
+  			$devluxe_classes = array( 'devluxe-class', 'my-class' ); /*devluxe-class and my-class doesnt exist yet.*/
   		else:
   			$devluxe_classes = array( 'no-devluxe-class' );
   		endif;
@@ -26,9 +26,9 @@
 
     <body <?php body_class( $devluxe_classes ); ?> >
 
-        <div class="container-fluid col-md-12">
+        <div class="container-fluid row col-md-12 remove-class-row">
 
-            <div class="row">
+            <div>
 
                 <div class="col-xs-12">
 
@@ -36,7 +36,7 @@
                     <!-- Navbar from Bootstrap Components Tab -->
                     
                     <nav id="header-background-color" class="navbar navbar-inverse navbar-fixed-top">
-                        <div class="container-fluid col-md-12">
+                        <div class="container-fluid row col-md-12 remove-class-row">
                             <!-- Brand and toggle get grouped for better mobile display -->
                             <div class="navbar-header">
                                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">

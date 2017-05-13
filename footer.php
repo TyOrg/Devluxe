@@ -3,7 +3,7 @@
 
 
 <!-- <div class="footer-wrapper container"> This was replaced with below div 5/12/17-->
-    <div class="footer-wrapper container-fluid col-md-12">
+    <div class="footer-wrapper container-fluid row col-md-12 remove-class-row">
     
     <!--<div id="footer">-->
     <footer class="footer no-gutter">

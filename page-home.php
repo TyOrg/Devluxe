@@ -4,11 +4,11 @@
 
 
 
-<div class="container-fluid col-md-12">
+<div class="container-fluid row col-md-12 remove-class-row">
     <!--this div closes on footer page?-->
 
 
-    <div class="row">
+    <div>
 
 
         <div class="col-xs-12 col-md-12 homemiddle">
