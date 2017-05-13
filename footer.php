@@ -2,9 +2,12 @@
 <!-- .container -->
 
 
-<div class="footer-wrapper container">
+<!-- <div class="footer-wrapper container"> This was replaced with below div 5/12/17-->
+    <div class="footer-wrapper container-fluid col-md-12">
+    
     <!--<div id="footer">-->
-    <footer class="footer row no-gutter">
+    <footer class="footer no-gutter">
+        
 
         <?php/* wp_nav_menu(array('theme_location'=>'secondary')); */?>
             <div class="col-xs-4 col-sm-2 col-sm-offset-3 social-icon"><a href="https://twitter.com/Tyler_Co_"><i class="fa fa-lg fa-twitter" aria-hidden="true"></i></a></div>

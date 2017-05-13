@@ -4,7 +4,7 @@
 
 
 
-<div class="container-fluid col-xs-12">
+<div class="container-fluid col-md-12">
     <!--this div closes on footer page?-->
 
 
