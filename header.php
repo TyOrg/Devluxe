@@ -24,7 +24,7 @@
   	?>
 
     <body <?php body_class( $devluxe_classes ); ?> >
-
+<div class="container">
         <div id="header-background-color">
             <p class="navbar-brand">Devluxe</p>
           

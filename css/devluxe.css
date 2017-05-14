@@ -217,19 +217,14 @@ img {
 
 
 
-}
+
 h1 a {
     color: black;
 }
 .menu {
     background-color: lightgray;
 }
-.col-xs-4 {
-    text-align: center;
-}
-.col-xs-12 {
-    margin-top: 0px;
-}
+
 
 /*
 .navbar-fixed-top {
@@ -295,6 +290,7 @@ h1 a {
     border-style: double;
     border-color: #838176;
     #f4b642;*/
+    background-color: f8f9fb;
     margin-top: 5em;
 }
 
@@ -317,7 +313,7 @@ html {
     width: 100%;
     /* Set the fixed height of the footer here */
     
-    background-color: #5F1A37;  /*#e11b5c*/
+    background-color: #ebecf0;  /*#e11b5c*/
     padding: 13px 0px 7px;
 }
 .footer-wrapper {
@@ -388,6 +384,20 @@ html {
     overflow-x: hidden !important;
 }
 
+
+/* Below .content code is from: #1 at https://digwp.com/2010/03/wordpress-post-content-multiple-columns/ 
+.content {
+	  -moz-column-count: 5;
+	  -moz-column-gap: 2px;
+	  -moz-column-rule: none;
+	  -webkit-column-count: 5;
+	  -webkit-column-gap: 2px;
+	  -webkit-column-rule: none;
+	column-count: 5;
+	column-gap: 2px;
+	column-rule: none;
+	}
+*/
 
 /********************************************************/
 
