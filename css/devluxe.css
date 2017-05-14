@@ -2,10 +2,10 @@
 
 
 body {
-    margin: 50px 0 60px;
+    margin: 0px 0 60px;
     /*margin-top: 50px;*/
     /*margin-bottom: 60px; /* sticky footer code from Bootstrap */
-    background-color: #fff; /*rgba(51, 51, 51, 0.11);*/
+    background-color: #ffff; /*rgba(51, 51, 51, 0.11);*/
    /* font-family: 'Old Standard TT', serif; */
     /*font-family: 'Lato', sans-serif; */
     font-family: 'Raleway', sans-serif; /*'Merriweather', serif;*/
@@ -13,7 +13,14 @@ body {
     /* replaced san serif */
     font-size: 17px;
     /* bootstrap was 14px */
+    overflow-x: hidden !important;
 }
+
+
+html, body {
+    max-width: 100%;
+}
+
 
 a {
     color: blue;
@@ -23,13 +30,13 @@ a {
 
 #logo-color {
     
-color: #73EEDC;
+color: #fff;
     
 }
 
 
 .navbar-brand a {
-    color: #73EEDC;
+    color: #fff;
 }
 
 .navbar-header a {
@@ -39,6 +46,7 @@ color: #73EEDC;
 
 #header-background-color {
     background-color: #04030F;
+    height: 9em;
 }
 
 
@@ -56,12 +64,17 @@ color: #73EEDC;
     
 }
 
-
+/*
 #page-blank {
     background-color: green;
     width: 100%;
-}
+}*/
 
+
+
+
+
+/*
 .carousel {
     background: #000;
     margin-right: 0;
@@ -91,12 +104,21 @@ color: #73EEDC;
     font-size: 30px
 }
 
+*/
+
+
+
+
 .entry-header h1 {
     /*font-family: 'Cabin', sans-serif;*/
     font-family: 'Raleway', sans-serif;
     margin-top: 1.5em;
     
 }
+
+
+
+
 
 p {
     line-height: 1.75em;
@@ -149,38 +171,11 @@ no-margin {
     padding: 0;
 }
 
-/* header search form ============*/
-.search-form-container {
-    display: none;
-    position: fixed;
-    top: 50px;
-    left: 0;
-    right: 0;
-    background-color: rgba(0, 0, 0, .35);
-    padding: 20px;
-    z-index: 2;
-}
-.open-search a {
-    font-size: 0;
-    width: 30px;
-    position: relative;
-}
-.open-search a:after {
-    position: absolute;
-    display: block;
-    font-family: 'Glyphicons Halflings';
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    content: "\e003";
-    font-size: 20px;
-    left: 0;
-    top: 50%;
-    line-height: 1em;
-    margin-top: -0.5em;
-}
+/* header search form - all this code is in old version of site devluxe.css ============*/
+
+
+
+
 
 /***********End Search Form*********************/
 
@@ -196,17 +191,24 @@ no-margin {
     left:0;
 }
 */
+
+/*
 .homemiddle {
     margin-top: 10px;
     border-top-width: 0px;
     border-style: ;
 }
+*/
+
+/*
 #aboveslider {
     margin: 0;
     padding: 0;
 }
+*/
 
-}
+
+
 img {
     border: 5px;
     border-radius: 2px;
@@ -242,12 +244,18 @@ h1 a {
     padding-bottom: 1px;
     padding-top: 1px;
 }
+
+
 .carousel {
     position: ;
     /*margin-right: -15px;*/
     
     padding-right: 0px;
 }
+
+
+
+
 #home-photo {
     border-radius: 20px;
     background-color: #324f7b;
@@ -256,17 +264,23 @@ h1 a {
     border-color: #838176;
 
 }
+
 #home-photo img {
     margin-left: -15px;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
     margin-top: 100px;
 
+    
     /*margin-left: 0;
     margin-right: 0
     padding: 0px;
     width: 100% ;*/
 }
+
+
+
+
 
 /*
 #home-photo-inner {
@@ -326,11 +340,7 @@ html {
     padding: 0px;
 }
 
-.navbar-brand {
-    font-family: 'Audiowide';
-    font-size: 35px;
-    color: #73EEDC;
-}
+
 
 
 
@@ -345,7 +355,7 @@ html {
 
 
 /*  Styles for Plugin Page Builder by SiteOrigin */
-
+/*
 #pgc-32-0-0 {
     color: red;
     background-color: #f8f9fb;
@@ -356,12 +366,32 @@ html {
     background-color: #ebecf0;
     
 }
+*/
+
+ 
 
 
-.remove-class-row { 
-    padding-left: 0px; 
-    padding-right: 0px; 
-} 
+.navbar-brand {
+    font-family: 'Audiowide';
+    font-size: 35px;
+    color: #fff;
+    margin-left: 20px;
+}
+
+
+
+/******Milligram CSS Now Used Instead of Bootstrap 5/14/17*******/
+
+.container {
+    max-width: 100%;  /* Cancels out Milligram setting */
+    padding: 0;  /* Cancels out Milligram setting */
+    overflow-x: hidden !important;
+}
+
+
+/********************************************************/
+
+
 
 
 
@@ -410,10 +440,7 @@ html {
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
     
-.container {
-    max-width: 1050px;
-    /*Changing Bootstrap default of min-width on 1200px desktop. */
-}
+
 
 }
 
@@ -424,10 +451,16 @@ html {
 	  min-height: 100%;
 	  width: 1251px;*/
     
-    
+}
+
+
+@media (max-width: 1024px) {
+    body {
+        overflow-x: hidden !important;
+    }
     .container {
-        max-width: 1050px;
-        /*Changing Bootstrap default of min-width on 1200px desktop. */
+        max-width: 100% !important;
+        overflow-x: hidden !important;
     }
 }
 

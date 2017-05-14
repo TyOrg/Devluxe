@@ -1,19 +1,18 @@
- <div class="container">
-
 <?php get_header(); ?>
 
+</div> <!-- div class="container" from header.php ends here. -->
 
 
 
-
-   
-
-
-   
+<div class="container-fluid row col-md-12 remove-class-row">
+    <!--this div closes on footer page?-->
 
 
-        <div class="homemiddle">
- 
+    <div>
+
+
+        <div class="col-xs-12 col-md-12 homemiddle">
+            
             <?php 
 		
 		if( have_posts() ):
@@ -31,8 +30,8 @@
 
 
         </div>
-
-
+        
+                              
 
 
         <!--<div class="col-xs-12 col-sm-4">
@@ -40,4 +39,5 @@
 				</div>-->
 
     </div>
+
     <?php get_footer(); ?>

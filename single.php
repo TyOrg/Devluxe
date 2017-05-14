@@ -1,8 +1,8 @@
 <?php get_header(); ?>
 
-<div class="row">
+<div>
 
-  <div class="col-xs-12 col-sm-8">
+  <div>
 
 	<?php 
 		if( have_posts() ):
@@ -25,9 +25,9 @@
 
 			<hr>
 
-			<div class="row">
-				<div class="col-xs-6 text-left"><?php previous_post_link(); ?></div>
-				<div class="col-xs-6 text-right"><?php next_post_link(); ?></div>
+			<div>
+				<div class="text-left"><?php previous_post_link(); ?></div>
+				<div class="text-right"><?php next_post_link(); ?></div>
 			</div>
 
 			<?php 
@@ -52,7 +52,7 @@
   </div>
 
 
-	<div class="col-xs-12 col-sm-4">
+	<div>
 		<?php get_sidebar(); ?>
   </div>
 

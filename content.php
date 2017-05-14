@@ -5,20 +5,20 @@
 <!--<small>Posted on: <?php the_time('F j, Y'); ?> at <?php the_time('g:i a'); ?>, in <?php the_category(); ?></small>-->
 	</header>
 
-	<div class="row remove-class-row">
+	<div>
 
 		<?php if( has_post_thumbnail() ): ?>
 
-		<div class="col-xs-12 col-sm-4">
+		<div>
 			<div class="thumbnail"><?php the_post_thumbnail('medium'); ?></div>
 		</div>
-		<div id="post-content-background" class="col-xs-12 col-sm-8">
+		<div id="post-content-background">
 			<?php the_content(); ?>
 		</div>
 
 	<?php else: ?>
 
-		<div id="post-content-background" class="col-xs-12">
+		<div id="post-content-background">
 			<?php the_content(); ?>
 		</div>
 
