@@ -5,7 +5,7 @@ body {
     margin: 0px 0 60px;
     /*margin-top: 50px;*/
     /*margin-bottom: 60px; /* sticky footer code from Bootstrap */
-    background-color: #ffff; /*rgba(51, 51, 51, 0.11);*/
+    background-color: #fff; /*rgba(51, 51, 51, 0.11);*/
    /* font-family: 'Old Standard TT', serif; */
     /*font-family: 'Lato', sans-serif; */
     font-family: 'Raleway', sans-serif; /*'Merriweather', serif;*/
@@ -290,7 +290,7 @@ h1 a {
     border-style: double;
     border-color: #838176;
     #f4b642;*/
-    background-color: f8f9fb;
+    background-color: #f8f9fb;
     margin-top: 5em;
 }
 
@@ -328,7 +328,7 @@ html {
     text-align: center;
 }
 .social-icon a {
-    color: #fff;
+    color: #3bb3f0;
     text-align: center;
 }
 .full-width-container {
@@ -384,22 +384,22 @@ html {
     overflow-x: hidden !important;
 }
 
+.row1, .row2, .row3, .row4, .row5 {
+    background-color: #f8f9fb;
+}
 
-/* Below .content code is from: #1 at https://digwp.com/2010/03/wordpress-post-content-multiple-columns/ 
-.content {
-	  -moz-column-count: 5;
-	  -moz-column-gap: 2px;
-	  -moz-column-rule: none;
-	  -webkit-column-count: 5;
-	  -webkit-column-gap: 2px;
-	  -webkit-column-rule: none;
-	column-count: 5;
-	column-gap: 2px;
-	column-rule: none;
-	}
-*/
+.row6 {
+    background-color: #fff;
+}
 
-/********************************************************/
+.row8, .row9 {
+    background-color: #f8f9fb;
+}
+.heading p {
+    font-weight: 700;
+    font-size: 1.5em;
+    color: #04030F;
+}
 
 
 
