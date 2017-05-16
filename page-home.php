@@ -1,4 +1,3 @@
- 
 <?php
 /*
 *	Template Name: Page-Home-Milligram-CSS
@@ -7,9 +6,9 @@
 
 
 
-<?php get_header(); ?>
+    <?php get_header(); ?>
 
-<!-- This is Milligram Layout
+    <!-- This is Milligram Layout
 
 <div class="container">
     
@@ -21,36 +20,60 @@
   </div>
 
     -->
-    
 
-        <div class="row">
- 
-            <?php 
-		
-		if( have_posts() ):
+<div class="container">
+    <div class="row">
+
+       <div class="column"> 
+           
+           <?php
+           
+           // args 
+           $args = array(
+                'numberposts'=>-1,
+                'post_type'=>'homepagepiece',
+                'meta_key'=>'sociallinks'
+           );
+           
+           // query
+           $the_query = new WP_Query( $args );
+           
+           ?>
+           
+           
+           <?php 
+            if( $the_query->have_posts() ): ?>
+
+         
+			<?php while( $the_query->have_posts() ): $the_query->the_post(); ?>
+
+            
+            <h1><?php the_field('sociallinks'); ?></h1>
+        
+           
+       <?/*php the_content(); */?>
+           
+
+
+        <?php endwhile; ?>
+        <?php endif; ?>
 			
-			while( have_posts() ): the_post(); ?>
-
-            <?php get_template_part('content',get_post_format()); ?>
-
-            <?php endwhile;
-			
-		endif;
 		
+		<?php wp_reset_query();
 				
 		?>
-
-
         </div>
 
 
+    </div>
 
+</div>
 
-        <!--<div class="col-xs-12 col-sm-4">
-					<?php get_sidebar(); ?>
+    <!--<div class="col-xs-12 col-sm-4">
+					<?/* php get_sidebar(); */?>
 				</div>-->
 
-     
-    </div>
+
+  
 
     <?php get_footer(); ?>
