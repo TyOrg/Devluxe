@@ -11,7 +11,7 @@ body {
     font-family: 'Raleway', sans-serif; /*'Merriweather', serif;*/
     /*Sentinel SSm A, Sentinel SSm B;*/
     /* replaced san serif */
-    font-size: 17px;
+    font-size: 15px;
     /* bootstrap was 14px */
     overflow-x: hidden !important;
 }
@@ -396,9 +396,10 @@ html {
     background-color: #f8f9fb;
 }
 .heading p {
-    font-weight: 700;
-    font-size: 1.5em;
+    font-weight: bold;
+    font-size: 1.2em;
     color: #04030F;
+  
 }
 
 

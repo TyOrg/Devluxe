@@ -41,48 +41,55 @@
             if( $the_query->have_posts() ): ?>
 <?php while( $the_query->have_posts() ): $the_query->the_post(); ?>
 
+<!--<div class="column column-50 column-offset-25">-->
+
 <div class="container">
     <div class="row row1">
-        <div class="column">
+        <div class="column column-22">
             <p>margin</p>
         </div>
-        <div class="column heading">
+        <div class="column column-3 heading">
             <p>
                 <?php the_field('heading1'); ?>
             </p>
 
         </div>
-        <div class="column">
+        <div class="column column-25">
         </div>
-        <div class="column">
+        <div class="column column-25 column-offset-25">
             <p>margin</p>
         </div>
     </div>
     <div class="row row2">
-        <div class="column">
+        <div class="column column-22">
             <p>margin</p>
         </div>
-        <div class="column">
+        <div class="column column-3">
         </div>
-        <div class="column heading">
-            <p>
-                <?php the_field('photo'); ?>
-            </p>
+        <div id="post-content-background" class="column column-13 heading">
+            
+            <img src="<?php the_field('facephoto'); ?>">    
+            
 
         </div>
-        <div class="column">
-                <?php the_field('sociallinks'); ?>
-
+        <div class="column column-12">
+                <?php/* the_field('sociallinks'); */?>
+            <ul style="list-style: none;">
+            <li><i class="fa fa-globe" aria-hidden="true"></i>&nbsp;&nbsp;Boston</li>
+            <li><i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp;&nbsp;tylercornettnow [at] gmail.com</li>
+            <li><i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp;&nbsp;Twitter</li>
+            </ul>
         </div>
-        <div class="column">
+        
+        <div class="column column-25">
             <p>margin</p>
         </div>
     </div>
     <div class="row row3">
-        <div class="column">
+        <div class="column column-22">
             <p>margin</p>
         </div>
-        <div class="column">
+        <div class="column column-3">
         </div>
         <div class="column">
             <p>
@@ -99,10 +106,10 @@
         </div>
     </div>
     <div class="row row4">
-        <div class="column">
+        <div class="column column-22">
             <p>margin</p>
         </div>
-        <div class="column">
+        <div class="column column-3">
         </div>
         <div class="column">
             <p>
@@ -115,10 +122,10 @@
         </div>
     </div>
     <div class="row row5">
-        <div class="column">
+        <div class="column column-22">
             <p>margin</p>
         </div>
-        <div class="column">
+        <div class="column column-3">
         </div>
         <div class="column">
             <p>
@@ -132,10 +139,10 @@
         </div>
     </div>
     <div class="row row6">
-        <div class="column">
+        <div class="column column-22">
             <p>margin</p>
         </div>
-        <div class="column heading">
+        <div class="column column-3 heading">
             <p><?php the_field('heading2'); ?></p>
         </div>
         <div class="column">
@@ -146,13 +153,14 @@
         </div>
     </div>    
     <div class="row row7">
-        <div class="column">
+        <div class="column column-22">
             <p>margin</p>
         </div>
-        <div class="column">
+        <div class="column column-3">
             <p></p>
         </div>
         <div class="column">
+            <!-- Maybe use a UL list for the little circle bullets as decoration on border -->
             <p>Freelance</p>
             <p>July 2014 - Present</p>
             <p>Coast Guard</p>
@@ -169,10 +177,10 @@
         </div>
     </div> 
     <div class="row row8">
-        <div class="column">
+        <div class="column column-22">
             <p>margin</p>
         </div>
-        <div class="column heading">
+        <div class="column column-3 heading">
             <p><?php the_field('heading3'); ?></p>
 
         </div>
@@ -183,10 +191,10 @@
         </div>
     </div> 
     <div class="row row9">
-        <div class="column">
+        <div class="column column-22">
             <p>margin</p>
         </div>
-        <div class="column">
+        <div class="column column-3">
            
         </div>
         <div class="column">
@@ -201,10 +209,10 @@
         </div>
     </div>
      <div class="row row10">
-        <div class="column">
+        <div class="column column-22">
             <p>margin</p>
         </div>
-        <div class="column heading">
+        <div class="column column-3 heading">
             <p><?php the_field('heading4'); ?></p>
 
         </div>   
