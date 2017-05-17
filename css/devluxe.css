@@ -384,6 +384,10 @@ html {
     overflow-x: hidden !important;
 }
 
+.row1, .row2, .row3, .row4, .row5, .row6, .row7, .row8, .row9, .row10, .row11 {
+    padding: 1em;
+}
+
 .row1, .row2, .row3, .row4, .row5 {
     background-color: #f8f9fb;
 }
@@ -395,15 +399,22 @@ html {
 .row8, .row9 {
     background-color: #f8f9fb;
 }
+
+.heading {
+    align-items: center;
+}
+
 .heading p {
     font-weight: bold;
     font-size: 1.2em;
     color: #04030F;
+    /*position: absolute;*/
+   /* margin-top: 3em; */
   
 }
 
 #profile-photo {
-   margin: auto;
+   
 }
 
 #profile-photo img {
@@ -413,18 +424,19 @@ html {
 }
 
 #ul-style {
-    margin: auto;
+    color: #3bb3f0;
+    /*line-height: 1.0;*/
 }
 
-    .row-photo {
-    height: 300px;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-align-items: center;
-    align-items: center;
-    -webkit-justify-content: center;
-    justify-content: center;
+#ul-style i {
+    color: #606c76;
     
+}
+
+
+.flex-row {
+    /*height: 17em;*/
+    display: flex;
     
 }
 
@@ -459,14 +471,7 @@ html {
     */
     
     
-    .no-gutter > [class*='col-'] {
-    padding-right:0;
-    padding-left:0;
-    }
-    
-    #post-content-background img {
-    float: none;    
-    }
+
     
     
     

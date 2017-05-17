@@ -44,28 +44,27 @@
         <!--<div class="column column-50 column-offset-25">-->
 
         <div class="container">
-            <div class="row row1">
+            <div class="row">
                 <div class="column column-22">
-                    <p>margin</p>
                 </div>
                 <div class="column column-3 heading">
+                    <div class="row">
                     <p>
                         <?php the_field('heading1'); ?>
                     </p>
-
+                    </div>
                 </div>
                 <div class="column column-75">
                 </div>
 
             </div>
-            <div class="row row2">
+            <div class="row">
                 <div class="column column-25">
-                    <p>margin</p>
                 </div>
 
 
                 <div class="column column-50">
-                    <div class="row row-photo">
+                    <div class="row">
 
 
                         <figure id="profile-photo" class="column column-25"><img src="<?php the_field('facephoto'); ?>"></figure>
@@ -85,7 +84,7 @@
 
                 
             </div>
-            <div class="row row3">
+            <div class="row">
                 <div class="column column-22">
                    
                 </div>
@@ -105,7 +104,7 @@
                 
                 </div>
             </div>
-            <div class="row row4">
+            <div class="row">
                 <div class="column column-22">
                   
                 </div>
@@ -121,7 +120,7 @@
                    
                 </div>
             </div>
-            <div class="row row5">
+            <div class="row">
                 <div class="column column-22">
                    
                 </div>
@@ -138,7 +137,7 @@
                    
                 </div>
             </div>
-            <div class="row row6">
+            <div class="row">
                 <div class="column column-22">
                   
                 </div>
@@ -155,7 +154,7 @@
                    
                 </div>
             </div>
-            <div class="row row7">
+            <div class="row">
                 <div class="column column-22">
                    
                 </div>
@@ -179,7 +178,7 @@
                    
                 </div>
             </div>
-            <div class="row row8">
+            <div class="row">
                 <div class="column column-22">
                 
                 </div>
@@ -195,7 +194,7 @@
                   
                 </div>
             </div>
-            <div class="row row9">
+            <div class="row">
                 <div class="column column-22">
                   
                 </div>
@@ -215,7 +214,7 @@
                   
                 </div>
             </div>
-            <div class="row row10">
+            <div class="row">
                 <div class="column column-22">
               
                 </div>
