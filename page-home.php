@@ -43,24 +43,24 @@
 
         <!--<div class="column column-50 column-offset-25">-->
 
+ <!-- .row .column.column-offset-25 {
+  margin-left: 25%;
+} -->
+
         <div class="container">
             <div class="row">
-                <div class="column column-22">
-                </div>
-                <div class="column column-3 heading">
-                    <div class="row">
+                
+                <div class="column heading">
                     <p>
                         <?php the_field('heading1'); ?>
                     </p>
-                    </div>
+                   
                 </div>
-                <div class="column column-75">
-                </div>
+                
 
             </div>
             <div class="row">
-                <div class="column column-25">
-                </div>
+                
 
 
                 <div class="column column-50">
@@ -83,13 +83,13 @@
 
 
                 
+
+              
+                
             </div>
             <div class="row">
-                <div class="column column-22">
-                   
-                </div>
-                <div class="column column-3">
-                </div>
+                
+                
                 <div class="column">
                     <p>
                         Front End Developer
@@ -100,32 +100,22 @@
                     <hr />
 
                 </div>
-                <div class="column">
                 
-                </div>
             </div>
             <div class="row">
-                <div class="column column-22">
-                  
-                </div>
-                <div class="column column-3">
-                </div>
+                
+                
                 <div class="column">
                     <p>
                         paragraphs describing what I do....
                     </p>
 
                 </div>
-                <div class="column">
-                   
-                </div>
+               
             </div>
             <div class="row">
-                <div class="column column-22">
-                   
-                </div>
-                <div class="column column-3">
-                </div>
+                
+                
                 <div class="column">
                     <p>
                         paragraphs describing what I do....
@@ -133,34 +123,23 @@
                     </p>
 
                 </div>
-                <div class="column">
-                   
-                </div>
+               
             </div>
             <div class="row">
-                <div class="column column-22">
-                  
-                </div>
-                <div class="column column-3 heading">
+               
+                <div class="column heading">
                     <p>
                         <?php the_field('heading2'); ?>
                     </p>
 
 
                 </div>
-                <div class="column column-25">
-                </div>
-                <div class="column column-50">
-                   
-                </div>
+                
+              
             </div>
             <div class="row">
-                <div class="column column-22">
-                   
-                </div>
-                <div class="column column-3">
-                    <p></p>
-                </div>
+               
+              
                 <div class="column">
                     <!-- Maybe use a UL list for the little circle bullets as decoration on border -->
                     <p>Freelance</p>
@@ -174,33 +153,21 @@
                     <p>Security Officer</p>
                     <p>Maintained physical and IT security for Classified Networks.</p>
                 </div>
-                <div class="column">
-                   
-                </div>
+               
             </div>
             <div class="row">
-                <div class="column column-22">
-                
-                </div>
-                <div class="column column-3 heading">
+               
+                <div class="column heading">
                     <p>
                         <?php the_field('heading3'); ?>
                     </p>
 
                 </div>
-                <div class="column">
-                </div>
-                <div class="column">
-                  
-                </div>
+               
+               
             </div>
             <div class="row">
-                <div class="column column-22">
-                  
-                </div>
-                <div class="column column-3">
-
-                </div>
+                
                 <div class="column">
                     <p>
                         <?php the_field('photo2'); ?>
@@ -210,15 +177,11 @@
                 <div class="column">
                     <p> description of photo....text</p>
                 </div>
-                <div class="column">
-                  
-                </div>
+               
             </div>
             <div class="row">
-                <div class="column column-22">
-              
-                </div>
-                <div class="column column-3 heading">
+                
+                <div class="column heading">
                     <p>
                         <?php the_field('heading4'); ?>
                     </p>
@@ -233,9 +196,7 @@
                     <div class="social-icon"><a href="https://www.linkedin.com/in/tyler-cornett-a8a815100/"><i class="fa fa-lg fa-linkedin" aria-hidden="true"></i></a></div>
 
                 </div>
-                <div class="column">
-                    
-                </div>
+               
             </div>
 
 
