@@ -26,8 +26,9 @@
     <body <?php body_class( $devluxe_classes ); ?> >
     
 
-        <div id="header-background-color">
+        <div id="header-background-color" class="row">
+            <div class="column column-50 column-offset-20">
             <p class="navbar-brand">Devluxe</p>
-          
+          </div>
             
             </div> 

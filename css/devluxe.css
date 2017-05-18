@@ -2,7 +2,8 @@
 
 
 body {
-    margin: 0px 0 60px;
+   /* margin: 0px 0 60px;*/
+    
     /*margin-top: 50px;*/
     /*margin-bottom: 60px; /* sticky footer code from Bootstrap */
     background-color: #fff; /*rgba(51, 51, 51, 0.11);*/
@@ -11,7 +12,7 @@ body {
     font-family: 'Raleway', sans-serif; /*'Merriweather', serif;*/
     /*Sentinel SSm A, Sentinel SSm B;*/
     /* replaced san serif */
-    font-size: 15px;
+    font-size: 13px;
     /* bootstrap was 14px */
     overflow-x: hidden !important;
 }
@@ -209,11 +210,7 @@ no-margin {
 
 
 
-img {
-    border: 5px;
-    border-radius: 2px;
-    padding-left: 0px;
-    }
+
 
 
 
@@ -371,7 +368,6 @@ html {
     font-family: 'Audiowide';
     font-size: 35px;
     color: #fff;
-    margin-left: 20px;
 }
 
 
@@ -406,10 +402,9 @@ html {
 
 .heading p {
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.3em;
     color: #04030F;
-    /*position: absolute;*/
-   /* margin-top: 3em; */
+   
   
 }
 
@@ -440,6 +435,27 @@ html {
     
 }
 
+.top-background-color {
+    background-color: #f8f9fb;
+    padding: 5em 0 5em;
+}
+
+.second-background-color {
+    background-color: #fff;
+    padding: 5em 0 5em;
+
+}
+
+.bottom-background-color {
+    background-color: #f8f9fb;
+    padding: 5em 0 5em;
+
+}
+
+hr {
+    border-top-color: #606c76;
+}
+
 
 
 
@@ -459,21 +475,9 @@ html {
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-    /*html {
-		width: 1105px;	
-	}*/
-    
-    
-    /*
-    .footer {
-        height: 50px;
-    }
-    */
-    
-    
-
-    
-    
+   
+.column-30 p {
+    margin-top: 2.5em;    
     
 }
 

@@ -48,9 +48,10 @@
 } -->
 
         <div class="container">
+            <section class="top-background-color">
             <div class="row">
                 
-                <div class="column heading">
+                <div class="column column-offset-20 heading">
                     <p>
                         <?php the_field('heading1'); ?>
                     </p>
@@ -63,14 +64,14 @@
                 
 
 
-                <div class="column column-50">
+                <div class="column column-offset-25">
                     <div class="row">
 
 
                         <figure id="profile-photo" class="column column-25"><img src="<?php the_field('facephoto'); ?>"></figure>
 
 
-                        <ul id="ul-style" class="column column-50" style="list-style: none;">
+                        <ul id="ul-style" class="column column-75" style="list-style: none;">
 
                             <li><i class="fa fa-globe" aria-hidden="true"></i>&nbsp;&nbsp;Boston</li>
                             <li><i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp;&nbsp;tylercornettnow [at] gmail.com</li>
@@ -80,24 +81,20 @@
 
                     </div>
                 </div>
-
-
-                
-
-              
                 
             </div>
             <div class="row">
                 
                 
-                <div class="column">
-                    <p>
+                <div class="column column-30 column-offset-25">
+                    <p><i>
                         Front End Developer
+                        </i>
                     </p>
 
                 </div>
                 <div class="column">
-                    <hr />
+                    <!-- <hr class="hr"> add this only on desktop screens -->
 
                 </div>
                 
@@ -105,29 +102,21 @@
             <div class="row">
                 
                 
-                <div class="column">
+                <div class="column column-50 column-offset-25">
                     <p>
-                        paragraphs describing what I do....
-                    </p>
-
-                </div>
-               
-            </div>
-            <div class="row">
-                
-                
-                <div class="column">
-                    <p>
-                        paragraphs describing what I do....
                         <?php the_content(); ?>
                     </p>
 
                 </div>
+                          
                
             </div>
+          
+            </section>
+            <section class="second-background-color">
             <div class="row">
                
-                <div class="column heading">
+                <div class="column column-25 column-offset-20 heading">
                     <p>
                         <?php the_field('heading2'); ?>
                     </p>
@@ -140,24 +129,37 @@
             <div class="row">
                
               
-                <div class="column">
+                <div class="column column-10 column-offset-25">
                     <!-- Maybe use a UL list for the little circle bullets as decoration on border -->
                     <p>Freelance</p>
-                    <p>July 2014 - Present</p>
-                    <p>Coast Guard</p>
-                    <p>September 1994 - June 2014</p>
                 </div>
-                <div class="column">
+                <div class="column column-25 column-offset-10">
                     <p>Front End Developer</p>
+                </div>
+                </div>  
+                <div class="row">
+                <div class="column column-20 column-offset-25">
+                    <p>July 2014 - Present</p>
+                </div>
+                    <div class="column column-25">
                     <p>Working on WordPress sites, etc. etc.</p>
+                    </div>
+                   
+                </div>
+                <div class="column column-25">
+                    <p>Front End Developer</p>
                     <p>Security Officer</p>
                     <p>Maintained physical and IT security for Classified Networks.</p>
                 </div>
-               
-            </div>
+                <p>Coast Guard</p>
+                    <p>September 1994 - June 2014</p>
+           
+                </section>
+            
+            <section class="bottom-background-color">
             <div class="row">
                
-                <div class="column heading">
+                <div class="column column-25 column-offset-20 heading">
                     <p>
                         <?php the_field('heading3'); ?>
                     </p>
@@ -166,6 +168,8 @@
                
                
             </div>
+            
+            
             <div class="row">
                 
                 <div class="column">
@@ -181,7 +185,7 @@
             </div>
             <div class="row">
                 
-                <div class="column heading">
+                <div class="column column-25 column-offset-20 heading">
                     <p>
                         <?php the_field('heading4'); ?>
                     </p>
@@ -199,7 +203,7 @@
                
             </div>
 
-
+           
 
             <?php endwhile; ?>
             <?php endif; ?>
@@ -209,7 +213,7 @@
 				
 		?>
 
-
+ </section>
 
 
         </div>
