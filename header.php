@@ -27,7 +27,7 @@
     
 
         <div id="header-background-color" class="row">
-            <div class="column column-50 column-offset-20">
+            <div class="column column-50 column-offset-20 aligner-logo">
             <p class="navbar-brand">Devluxe</p>
           </div>
             
