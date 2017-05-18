@@ -129,31 +129,32 @@
             <div class="row">
                
               
-                <div class="column column-10 column-offset-25">
+                <div class="column column-10 column-offset-20">
                     <!-- Maybe use a UL list for the little circle bullets as decoration on border -->
                     <p>Freelance</p>
                 </div>
-                <div class="column column-25 column-offset-10">
+                <div class="column column-40">
                     <p>Front End Developer</p>
                 </div>
-                </div>  
-                <div class="row">
-                <div class="column column-20 column-offset-25">
+            </div>  
+            <div class="row">
+                <div class="column column-10 column-offset-20">
                     <p>July 2014 - Present</p>
                 </div>
-                    <div class="column column-25">
+                    <div class="column column-40">
                     <p>Working on WordPress sites, etc. etc.</p>
                     </div>
                    
-                </div>
-                <div class="column column-25">
+            </div>
+            <div class="row">
+               <div class="column column-100 column-offset-20">
                     <p>Front End Developer</p>
-                    <p>Security Officer</p>
-                    <p>Maintained physical and IT security for Classified Networks.</p>
                 </div>
-                <p>Coast Guard</p>
-                    <p>September 1994 - June 2014</p>
-           
+                <div class="column column-40">
+                    <p>Security Officer</p>
+                </div>
+                
+           </div>
                 </section>
             
             <section class="bottom-background-color">
