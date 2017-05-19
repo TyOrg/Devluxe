@@ -433,11 +433,7 @@ html {
 }
 
 
-.flex-row {
-    /*height: 17em;*/
-    display: flex;
-    
-}
+
 
 .top-background-color {
     background-color: #f8f9fb;
@@ -467,6 +463,20 @@ hr {
 }
 
 
+.flex-direction-row {
+        flex-direction: row;
+        
+}
+
+.column-border {
+   
+    border-right: medium solid #f8f9fb;
+}
+
+.ulborder li {
+    color: #3bb3f0;
+}
+
 
 /* MEDIA QUERIES BELOW */
 
@@ -485,10 +495,23 @@ hr {
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
    
+    
+    
+    
+    
+/* Larger than Mobile screen: 40.0rem (640px) - rem is used in Milligram CSS */ 
+    @media (min-width: 40.0rem) {
+        
 .column-30 p {
     margin-top: 2.5em;    
     
 }
+               
+        
+}
+    
+    
+    
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
@@ -515,6 +538,13 @@ hr {
         max-width: 100% !important;
         overflow-x: hidden !important;
     }
+    
+    
+    
+    
+@media (max-width: 40.0rem) {
+     
+    
 }
 
 
