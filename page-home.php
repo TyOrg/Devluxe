@@ -143,23 +143,29 @@
                 <div class="row flex-direction-row">
                     <div class="column column-25 column-offset-25 column-border">
                         <p>July 2014 - Present</p>
+                        <div class="ulborder"><i class="fa fa-circle-o" aria-hidden="true"></i></div>
                     </div>
-                   
-                    <div class="column column-50 column-offset-8">
+                    <div class="column-50 col2ndsection">
                         <p>Working on WordPress sites, etc. etc. more content keep going keep going keep going</p>
                     </div>
+                    </div>
+                   
+                    
 
-                </div>
+                
                 <div class="row flex-direction-row">
                     <div class="column column-25 column-offset-25 column-border">
                         <p>Front End Developer</p>
+                        <div class="ulborder"><i class="fa fa-circle-o" aria-hidden="true"></i></div>
                     </div>
-                    
-                    <div class="column column-50 column-offset-8">
+                     <div class="column-50 col2ndsection">
                         <p>Security Officer</p>
                     </div>
+                    </div>
+                    
+                   
 
-                </div>
+               
             </section>
 
             <section class="bottom-background-color">

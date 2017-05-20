@@ -468,11 +468,18 @@ hr {
         
 }
 
+
 .column-border {
    
     border-right: .12rem solid #ebecec;
     position: relative;
+    padding-right: 5%;
+    text-align: right;
 }
+
+
+
+
 
 .ulborder {
   /*   content: "&#xf110"; 
@@ -481,7 +488,7 @@ hr {
      color: #3bb3f0;
     position: absolute;
     top: .24rem;
-    right: -.65rem;
+    right: -.67rem;
 }
 
 .ulborder i {
@@ -490,8 +497,13 @@ hr {
 
 /* I created below class, which is a smaller version of the ones already created by Milligram CSS */
 .col2ndsection {
-  margin-left: 8%;
+  margin: 0% 20% 0% 5%;
 }
+
+/*
+.column-border, .col2ndsection {
+    text-align: justify;
+}*/
 
 
 
@@ -516,27 +528,28 @@ hr {
 
 /* No media query since this is the default in Bootstrap */
 
-/*html {
-	width: 1080px;
-}
-*/
-
-
 
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) {
+@media (min-width: 768px) 
    
     
     
     
     
 /* Larger than Mobile screen: 40.0rem (640px) - rem is used in Milligram CSS */ 
-    @media (min-width: 40.0rem) {
+@media (min-width: 640px) {
         
 .column-30 p {
     margin-top: 2.5em;    
     
+}
+        
+.column-border {
+   
+    font-style: italic;
+    padding-right: 200rem;
+
 }
                
         
@@ -563,21 +576,18 @@ hr {
 
 
 @media (max-width: 1024px) {
-    body {
+    /*body {
         overflow-x: hidden !important;
     }
     .container {
         max-width: 100% !important;
         overflow-x: hidden !important;
-    }
-    
-    
-    
-    
-@media (max-width: 40.0rem) {
-     
+    }*/
     
 }
+    
+    
+
 
 
 
