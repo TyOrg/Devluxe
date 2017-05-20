@@ -129,43 +129,33 @@
                 <div class="row flex-direction-row">
 
 
-                    <div class="column column-25 column-offset-10 column-border">
+                    <div class="column column-25 column-offset-25 column-border">
                         <!-- Maybe use a UL list for the little circle bullets as decoration on border -->
                         <p>Freelance</p>
+                        <div class="ulborder"><i class="fa fa-circle-o" aria-hidden="true"></i></div>
                     </div>
-                    <div class="column column-10">
-                        <ul class="ulborder">
-                        <li></li>
-                        </ul>
-                    </div>
-                    <div class="column column-50 column-offset-10">
+
+
+                    <div class="col2ndsection column-50">
                         <p>Front End Developer</p>
                     </div>
                 </div>
                 <div class="row flex-direction-row">
-                    <div class="column column-25 column-offset-10 column-border">
+                    <div class="column column-25 column-offset-25 column-border">
                         <p>July 2014 - Present</p>
                     </div>
-                      <div class="column column-10">
-                        <ul class="ulborder">
-                        <li></li>
-                        </ul>
-                    </div>
-                    <div class="column column-50 column-offset-10">
+                   
+                    <div class="column column-50 column-offset-8">
                         <p>Working on WordPress sites, etc. etc. more content keep going keep going keep going</p>
                     </div>
 
                 </div>
                 <div class="row flex-direction-row">
-                    <div class="column column-25 column-offset-10 column-border">
+                    <div class="column column-25 column-offset-25 column-border">
                         <p>Front End Developer</p>
                     </div>
-                      <div class="column column-10">
-                        <ul class="ulborder">
-                        <li></li>
-                        </ul>
-                    </div>
-                    <div class="column column-50 column-offset-10">
+                    
+                    <div class="column column-50 column-offset-8">
                         <p>Security Officer</p>
                     </div>
 

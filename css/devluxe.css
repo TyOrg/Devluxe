@@ -470,12 +470,44 @@ hr {
 
 .column-border {
    
-    border-right: medium solid #f8f9fb;
+    border-right: .12rem solid #ebecec;
+    position: relative;
 }
 
-.ulborder li {
-    color: #3bb3f0;
+.ulborder {
+  /*   content: "&#xf110"; 
+   
+    padding-left: 5px;*/
+     color: #3bb3f0;
+    position: absolute;
+    top: .24rem;
+    right: -.65rem;
 }
+
+.ulborder i {
+    background-color: #fff;
+}
+
+/* I created below class, which is a smaller version of the ones already created by Milligram CSS */
+.col2ndsection {
+  margin-left: 8%;
+}
+
+
+
+
+
+
+
+
+
+/*
+.pseudoborder:after {
+     content: " <i class="fa fa-circle-o" aria-hidden="true"></i>";
+    
+    position: relative;
+
+}*/
 
 
 /* MEDIA QUERIES BELOW */
