@@ -10,7 +10,7 @@ function devluxe_script_enqueue() {
 	
     //fonts
     wp_enqueue_style( 'googlefonts_css', '//fonts.googleapis.com/css?family=Audiowide|Lato|Cabin|Old+Standard+TT|Raleway|Merriweather' );
-    
+	wp_enqueue_style( 'font-awesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' ); 
     
     
     

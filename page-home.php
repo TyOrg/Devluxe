@@ -51,7 +51,7 @@
             <section class="top-background-color">
                 <div class="row">
 
-                    <div class="column column-offset-20 heading">
+                    <div class="column column-25 column-offset-20 heading">
                         <p>
                             <?php the_field('heading1'); ?>
                         </p>
@@ -129,7 +129,7 @@
                 <div class="row flex-direction-row">
 
 
-                    <div class="column column-25 column-offset-25 column-border">
+                    <div id="column-border" class="column column-25 column-offset-25 column-border">
                         <!-- Maybe use a UL list for the little circle bullets as decoration on border -->
                         <p>Freelance</p>
                         <div class="ulborder"><i class="fa fa-circle-o" aria-hidden="true"></i></div>
@@ -141,7 +141,7 @@
                     </div>
                 </div>
                 <div class="row flex-direction-row">
-                    <div class="column column-25 column-offset-25 column-border">
+                    <div id="column-border" class="column column-25 column-offset-25 column-border">
                         <p>July 2014 - Present</p>
                         <div class="ulborder"><i class="fa fa-circle-o" aria-hidden="true"></i></div>
                     </div>
@@ -154,7 +154,7 @@
 
                 
                 <div class="row flex-direction-row">
-                    <div class="column column-25 column-offset-25 column-border">
+                    <div id="column-border" class="column column-25 column-offset-25 column-border">
                         <p>Front End Developer</p>
                         <div class="ulborder"><i class="fa fa-circle-o" aria-hidden="true"></i></div>
                     </div>

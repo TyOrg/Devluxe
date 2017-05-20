@@ -55,7 +55,7 @@ color: #fff;
 }
 
 
-
+/*
 .button {
     background-color: #4890a9;
     border: 1px;
@@ -68,6 +68,7 @@ color: #fff;
     font-size: 16px;
     
 }
+*/
 
 /*
 #page-blank {
@@ -384,21 +385,6 @@ html {
     overflow-x: hidden !important;
 }
 
-.row1, .row2, .row3, .row4, .row5, .row6, .row7, .row8, .row9, .row10, .row11 {
-    padding: 1em;
-}
-
-.row1, .row2, .row3, .row4, .row5 {
-    background-color: #f8f9fb;
-}
-
-.row6 {
-    background-color: #fff;
-}
-
-.row8, .row9 {
-    background-color: #f8f9fb;
-}
 
 .heading {
     /*align-items: center;*/
@@ -409,7 +395,6 @@ html {
     font-size: 1.3em;
     color: #04030F;
    
-  
 }
 
 #profile-photo {
@@ -462,9 +447,37 @@ hr {
   margin-top: auto;
 }
 
+#logo-mail-icon {
+    margin: 5.5rem 0 0 4rem;
+    font-family: FontAwesome;
+    
+}  
+
+#logo-mail-icon i {
+    color: #3bb3f0;
+    font-size: 2rem;
+    
+}  
+
+.button {
+    border-color: #3bb3f0;
+    border-radius: 2rem;
+    padding: .6rem;
+    line-height: 2.9;
+    height: 3.8rem;
+    letter-spacing: 0rem;
+    
+}
+
+.fa-envelope {
+    padding: 5px;
+}
+
+
+
 
 .flex-direction-row {
-        flex-direction: row;
+    flex-direction: row;
         
 }
 
@@ -500,10 +513,6 @@ hr {
   margin: 0% 20% 0% 5%;
 }
 
-/*
-.column-border, .col2ndsection {
-    text-align: justify;
-}*/
 
 
 
@@ -513,13 +522,7 @@ hr {
 
 
 
-/*
-.pseudoborder:after {
-     content: " <i class="fa fa-circle-o" aria-hidden="true"></i>";
-    
-    position: relative;
 
-}*/
 
 
 /* MEDIA QUERIES BELOW */
@@ -532,37 +535,27 @@ hr {
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) 
-   
-    
-    
-    
-    
-/* Larger than Mobile screen: 40.0rem (640px) - rem is used in Milligram CSS */ 
-@media (min-width: 640px) {
-        
-.column-30 p {
-    margin-top: 2.5em;    
-    
-}
-        
-.column-border {
-   
-    font-style: italic;
-    padding-right: 200rem;
 
-}
-               
-        
-}
     
-    
-    
+
+      
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
     
 
 
+}
+
+@media (max-width: 1024px) {
+    /*body {
+        overflow-x: hidden !important;
+    }
+    .container {
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+    }*/
+    
 }
 
 /* Large devices (large desktops, 1200px and up) */
@@ -575,19 +568,21 @@ hr {
 }
 
 
-@media (max-width: 1024px) {
-    /*body {
-        overflow-x: hidden !important;
-    }
-    .container {
-        max-width: 100% !important;
-        overflow-x: hidden !important;
-    }*/
+/* Larger than Mobile screen: 40.0rem (640px) - rem is used in Milligram CSS */ 
+@media (min-width: 40.0rem) {
+        
+.column-30 p {
+    margin-top: 2.5em;    
     
 }
-    
-    
+        
+#column-border {
+   
+    padding-right: 5%;
 
-
+}
+               
+        
+}
 
 
