@@ -398,7 +398,7 @@ html {
 }
 
 #profile-photo {
-   
+   margin-left: 0;
 }
 
 #profile-photo img {
@@ -409,7 +409,7 @@ html {
 
 #ul-style {
     color: #3bb3f0;
-    /*line-height: 1.0;*/
+    line-height: 1.0;
 }
 
 #ul-style i {
@@ -448,7 +448,7 @@ hr {
 }
 
 #logo-mail-icon {
-    margin: 5.5rem 0 0 4rem;
+    margin: 4.5rem 3rem;
     font-family: FontAwesome;
     
 }  
@@ -466,11 +466,18 @@ hr {
     line-height: 2.9;
     height: 3.8rem;
     letter-spacing: 0rem;
-    
+    border: .14rem solid #fff;
 }
 
+
+.button-outline {
+    background-color: purple;
+}
+
+
+
 .fa-envelope {
-    padding: 5px;
+    padding: .25rem;
 }
 
 
@@ -534,10 +541,23 @@ hr {
 
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) 
+@media (min-width: 768px) {
 
     
-
+ #div-photo-ul {
+      margin-top: 2.85rem;
+      padding-left: 0;
+    }
+    
+    
+    
+#profile-photo {
+   margin-left: 1rem;
+}
+    
+    
+    
+}
       
 
 /* Medium devices (desktops, 992px and up) */
@@ -556,6 +576,11 @@ hr {
         overflow-x: hidden !important;
     }*/
     
+}
+
+
+@media (min-width: 1024px) {
+ 
 }
 
 /* Large devices (large desktops, 1200px and up) */

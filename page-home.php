@@ -67,17 +67,24 @@
                     <div class="column column-offset-25">
                         <div class="row">
 
-
-                            <figure id="profile-photo" class="column column-25"><img src="<?php the_field('facephoto'); ?>"></figure>
-
-
-                            <ul id="ul-style" class="column column-75" style="list-style: none;">
-
+                           
+                                <div class="column-10">
+                            <figure id="profile-photo" class=""><img src="<?php the_field('facephoto'); ?>">
+                                    </figure></div>
+                            <div id="div-photo-ul" class="column">
+                                
+                                <ul id="ul-style" class="column column-75" style="list-style: none;">
+                                    
                                 <li><i class="fa fa-globe" aria-hidden="true"></i>&nbsp;&nbsp;Boston</li>
                                 <li><i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp;&nbsp;tylercornettnow [at] gmail.com</li>
                                 <li><i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp;&nbsp;Twitter</li>
+                                 </ul>    
+                                </div>
 
-                            </ul>
+                           
+
+
+                            
 
                         </div>
                     </div>
@@ -132,7 +139,7 @@
                     <div id="column-border" class="column column-25 column-offset-25 column-border">
                         <!-- Maybe use a UL list for the little circle bullets as decoration on border -->
                         <p>Freelance</p>
-                        <div class="ulborder"><i class="fa fa-circle-o" aria-hidden="true"></i></div>
+                        <div class="ulborder"><i class="fa fa-cog fa-spin" aria-hidden="true"></i></div>
                     </div>
 
 
@@ -143,7 +150,7 @@
                 <div class="row flex-direction-row">
                     <div id="column-border" class="column column-25 column-offset-25 column-border">
                         <p>July 2014 - Present</p>
-                        <div class="ulborder"><i class="fa fa-circle-o" aria-hidden="true"></i></div>
+                        <div class="ulborder"><i class="fa fa-cog fa-spin" aria-hidden="true"></i></div>
                     </div>
                     <div class="column-50 col2ndsection">
                         <p>Working on WordPress sites, etc. etc. more content keep going keep going keep going</p>
@@ -156,7 +163,7 @@
                 <div class="row flex-direction-row">
                     <div id="column-border" class="column column-25 column-offset-25 column-border">
                         <p>Front End Developer</p>
-                        <div class="ulborder"><i class="fa fa-circle-o" aria-hidden="true"></i></div>
+                        <div class="ulborder"><i class="fa fa-cog fa-spin" aria-hidden="true"></i></div>
                     </div>
                      <div class="column-50 col2ndsection">
                         <p>Security Officer</p>
