@@ -520,6 +520,16 @@ hr {
   margin: 0% 20% 0% 5%;
 }
 
+.experience-header {
+    color: #50baf2;
+    font-weight: bold;
+    margin-bottom: .2rem;
+}
+
+.experience-subheader {
+    font-style: italic;
+}
+
 
 
 

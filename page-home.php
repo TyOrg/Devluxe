@@ -76,15 +76,10 @@
                                 <ul id="ul-style" class="column column-75" style="list-style: none;">
                                     
                                 <li><i class="fa fa-globe" aria-hidden="true"></i>&nbsp;&nbsp;Boston</li>
-                                <li><i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp;&nbsp;tylercornettnow [at] gmail.com</li>
+                                <li><i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp;&nbsp;TylerCornettNow [at] gmail.com</li>
                                 <li><a href="http://localhost:8888/devluxe/wp-content/uploads/2017/06/Resume.pdf"><i class="fa fa-file-text-o" aria-hidden="true"></i>&nbsp;&nbsp;Resume</a></li>
                                  </ul>    
                                 </div>
-
-                           
-
-
-                            
 
                         </div>
                     </div>
@@ -95,7 +90,7 @@
 
                     <div class="column column-30 column-offset-25">
                         <p><i>
-                        Front End Developer
+                        Tyler Cornett - Front End Developer
                         </i>
                         </p>
 
@@ -138,22 +133,22 @@
 
                     <div id="column-border" class="column column-25 column-offset-25 column-border">
                         <!-- Maybe use a UL list for the little circle bullets as decoration on border -->
-                        <p>2015-Present</p>
+                        <p class="experience-header">Front End Developer</p><p class="experience-subheader">2015-Present</p>
                         <div class="ulborder"><i class="fa fa-cog fa-spin" aria-hidden="true"></i></div>
                     </div>
 
 
                     <div class="col2ndsection column-50">
-                        <p>Front End Developer - BKJ Productions, Freelance, skilled in WordPress Development, PHP, HTML, CSS(Bootstrap, Sass), Javascript(jQuery, Node), Git, SEO, website optimization, email marketing, Pay Per Click advertising.</p>
+                        <p>BKJ Productions, Freelance, skilled in WordPress Development, PHP, HTML, CSS(Bootstrap, Sass), Javascript(jQuery, Node), Git, SEO, website optimization, email marketing, Pay Per Click advertising.</p>
                     </div>
                 </div>
                 <div class="row flex-direction-row">
                     <div id="column-border" class="column column-25 column-offset-25 column-border">
-                        <p>2016</p>
+                        <p class="experience-header">E-Learning Department, Lesley University, Graduate Student Assistant</p><p class="experience-subheader">2016</p>
                         <div class="ulborder"><i class="fa fa-cog fa-spin" aria-hidden="true"></i></div>
                     </div>
                     <div class="column-50 col2ndsection">
-                        <p>E-Learning Department, Lesley University, Graduate Student Assistant - Increased efficiency and performance within E-Learning Department by developing Administrative Support solutions,
+                        <p>Increased efficiency and performance within E-Learning Department by developing Administrative Support solutions,
 Excel Spreadsheet Reports, and Learning Management System Software edits.</p>
                     </div>
                     </div>
@@ -163,11 +158,11 @@ Excel Spreadsheet Reports, and Learning Management System Software edits.</p>
                 
                 <div class="row flex-direction-row">
                     <div id="column-border" class="column column-25 column-offset-25 column-border">
-                        <p>1996 - 2015</p>
+                        <p class="experience-header">U.S. Coast Guard Information Systems Technician</p><p class="experience-subheader">1996 - 2015</p>
                         <div class="ulborder"><i class="fa fa-cog fa-spin" aria-hidden="true"></i></div>
                     </div>
                      <div class="column-50 col2ndsection">
-                        <p>U.S. Coast Guard Information Systems Technician - Received 5 Coast Guard Achievement Awards while completing a 20 Year Active Duty Coast Guard career on the West and East Coast of United States as a Chief Warrant Officer.  Spent years managing large scale IT projects, served as a Windows systems administrator, supervised junior technicians, served as a junior applications developer utilizing SQL, VB Script, HTML, CSS, and Databases, and served as an IT Security Officer.</p>
+                        <p>Received 5 Coast Guard Achievement Awards while completing a 20 Year Active Duty Coast Guard career on the West and East Coast of United States as a Chief Warrant Officer.  Spent years managing large scale IT projects, served as a Windows systems administrator, supervised junior technicians, served as a junior applications developer utilizing SQL, VB Script, HTML, CSS, and Databases, and served as an IT Security Officer.</p>
                     </div>
                     </div>
                     
