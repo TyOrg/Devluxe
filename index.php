@@ -13,6 +13,12 @@
     <link rel="stylesheet" href="css/milligram.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/devluxe.css">
+    
+    
+    <!-- Magnific Popup core CSS file -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+
 
 </head>
 
@@ -297,6 +303,11 @@
         </footer>
         <!--</div>-->
     </div>
+    
+    <!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
+    <!-- Magnific Popup core JS file -->
+    <script src="js/magnific-popup/jquery.magnific-popup.js"></script>
 </body>
 </html>
