@@ -517,7 +517,7 @@ hr {
 
 /* I created below class, which is a smaller version of the ones already created by Milligram CSS */
 .col2ndsection {
-  margin: 0% 20% 0% 5%;
+  margin: 0% 9% 0% 5%;
 }
 
 .experience-header {
@@ -530,12 +530,16 @@ hr {
     font-style: italic;
 }
 
+.portfolio-row {
+    margin-bottom: 2rem;
+}
 
+.portfolio-border {
+    border-style: solid;
+    border-color: black;
+    border-width: thin;
 
-
-
-
-
+}
 
 
 
@@ -550,6 +554,33 @@ hr {
 
 
 
+
+
+/* Larger than Mobile screen: 40.0rem (640px) - rem is used in Milligram CSS */ 
+@media (min-width: 40.0rem) {
+        
+.column-30 p {
+    margin-top: 2.5em;    
+    
+}
+   
+    
+#column-border-id {
+    padding-right: 5%;
+    padding-left: 4rem;
+
+}
+               
+        
+}
+
+.column-33 {
+   /* padding-left: 10rem;*/
+}
+
+
+
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
@@ -557,15 +588,15 @@ hr {
  #div-photo-ul {
       margin-top: 2.85rem;
       padding-left: 0;
-    }
-    
-    
+    }  
     
 #profile-photo {
    margin-left: 1rem;
 }
     
-    
+.col2ndsection {
+  margin: 0% 15% 0% 5%;
+}
     
 }
       
@@ -602,22 +633,5 @@ hr {
     
 }
 
-
-/* Larger than Mobile screen: 40.0rem (640px) - rem is used in Milligram CSS */ 
-@media (min-width: 40.0rem) {
-        
-.column-30 p {
-    margin-top: 2.5em;    
-    
-}
-        
-#column-border {
-   
-    padding-right: 5%;
-
-}
-               
-        
-}
 
 
