@@ -17,23 +17,29 @@
     
     <!-- Magnific Popup core CSS file -->
     <link rel="stylesheet" href="css/magnific-popup.css">
-
-
-
 </head>
 
-
 <body>
-
 
     <div id="header-background-color" class="row flex-direction-row">
         <div class="column column-50 column-offset-20 aligner-logo">
             <p class="navbar-brand">Devluxe</p>
         </div>
         <div id="logo-mail-icon" class="column column-10">
-
-            <button class="button button-outline"><i class="fa fa-envelope" aria-hidden="true"></i></button>
-
+            <a href="#test-popup" class="open-popup-link"><button class="button button-outline"><i class="fa fa-envelope" aria-hidden="true"></i></button></a>
+        </div>
+        <div id="test-popup" class="white-popup mfp-hide">
+          <form action="/action_page.php">
+  First name:<br>
+  <input type="text" name="firstname" value="">
+  <br>
+  Email:<br>
+  <input type="text" name="email" value="">
+  <br>Your Message:<br>
+  <input type="text" name="yourmessage" value="">
+  <br><br>
+  <input type="submit" value="Submit">
+</form> 
         </div>
 
     </div>
@@ -68,7 +74,7 @@
                             <ul id="ul-style" class="column column-75" style="list-style: none;">
 
                                 <li><i class="fa fa-globe" aria-hidden="true"></i>&nbsp;&nbsp;Boston</li>
-                                <li><i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp;&nbsp;TylerCornettNow [at] gmail.com</li>
+                                <li><a href="#test-popup" class="open-popup-link"><i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp;&nbsp;TylerCornettNow [at] gmail.com</a></li>
                                 <li><a href="http://localhost:8888/devluxe/wp-content/uploads/2017/06/Resume.pdf"><i class="fa fa-file-text-o" aria-hidden="true"></i>&nbsp;&nbsp;Resume</a></li>
                             </ul>
                         </div>
@@ -309,5 +315,11 @@
 
     <!-- Magnific Popup core JS file -->
     <script src="js/magnific-popup/jquery.magnific-popup.js"></script>
+    <script src="js/magnific-popup/initialize-popup.js"></script>
+    
+    <!-- Ajax jQuery PHP Contact Form - http://insightandinsanity.com/build-a-simple-php-jquery-and-ajax-powered-contact-form/ -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.form/3.32/jquery.form.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.11.1/jquery.validate.min.js"></script>
+    
 </body>
 </html>

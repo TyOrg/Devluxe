@@ -542,6 +542,17 @@ hr {
 }
 
 
+/* Styling for Magnific-Popup jQuery contact form.  */
+.white-popup {
+  position: relative;
+  background: #FFF;
+  padding: 20px;
+  width: auto;
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+
 
 
 
@@ -617,10 +628,17 @@ hr {
         overflow-x: hidden !important;
     }*/
     
+    
+
+    
 }
 
 
 @media (min-width: 1024px) {
+    
+  .col2ndsection {
+  margin: 0% 20% 0% 5%;
+}  
  
 }
 
