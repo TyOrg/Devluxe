@@ -541,6 +541,10 @@ hr {
 
 }
 
+figcaption {
+    margin-left: 1rem;
+}
+
 
 
 
@@ -554,6 +558,32 @@ hr {
   margin: 20px auto;
 }
 /****************************************************/
+
+
+
+
+
+
+
+
+/* Mangnific Popup Animation fade in Styles - http://dimsemenov.com/plugins/magnific-popup/documentation.html#animation */
+/*overlay at start */
+
+
+
+/* End of Magnific Animation Styles */
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -637,6 +667,14 @@ fieldset {
 
 
 
+/* pop form button styling */
+.button, button, input[type='button'], input[type='reset'], input[type='submit'] {
+    background-color: #50baf2;
+    border: 0.1rem solid #50baf2;
+}
+
+
+    
 
 
 
@@ -668,9 +706,7 @@ fieldset {
         
 }
 
-.column-33 {
-   /* padding-left: 10rem;*/
-}
+
 
 
 

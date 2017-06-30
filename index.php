@@ -14,9 +14,15 @@
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/devluxe.css">
 
-
     <!-- Magnific Popup core CSS file -->
     <link rel="stylesheet" href="css/magnific-popup.css">
+    
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    
+    
+    
 </head>
 
 <body>
@@ -101,7 +107,7 @@
                     <div class="column column-offset-25">
                         <div class="row">
                             <div class="column-10">
-                                <figure id="profile-photo" class=""><img src="images/tyler-3.png">
+                                <figure id="profile-photo" class=""><img src="images/tyler-3.png"><figcaption>Tyler Cornett</figcaption>
                                 </figure>
                             </div>
                             <div id="div-photo-ul" class="column">
@@ -109,7 +115,7 @@
                                 <ul id="ul-style" class="column column-75" style="list-style: none;">
 
                                     <li><i class="fa fa-globe" aria-hidden="true"></i>&nbsp;&nbsp;Boston</li>
-                                    <li><a href="#test-popup" class="open-popup-link"><i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp;&nbsp;TylerCornettNow [at] gmail.com</a></li>
+                                    <li><i class="fa fa-code" aria-hidden="true"></i>&nbsp;&nbsp;Front End Developer</li>
                                     <li><a href="http://localhost:8888/devluxe/wp-content/uploads/2017/06/Resume.pdf"><i class="fa fa-file-text-o" aria-hidden="true"></i>&nbsp;&nbsp;Resume</a></li>
                                 </ul>
                             </div>
@@ -121,10 +127,6 @@
                 <div class="row">
 
                     <div class="column column-30 column-offset-25">
-                        <p><i>
-                        Tyler Cornett - Front End Developer
-                        </i>
-                        </p>
                     </div>
                     <div class="column">
                         <!-- <hr class="hr"> add this only on desktop screens -->
@@ -253,8 +255,17 @@
                 <div class="row">
 
                     <div class="column column-33 column-offset-33">
-                        <p>Jess Kern - I've been working with Tyler for over a year now to keep my website up and running, and up to date. Each time I meets with Tyler to discuss improvements to the site, I feel at ease, comfortable asking questions, and confident that I'm in good hands. Tyler brings enthusiasm, patience, focus and technical knowledge to our collaboration, and I've gotten so much positive feedback from clients about improved usability and overall attractiveness of my website. Thank you Tyler for all of your hard work - I am so grateful to be working with you!</p>
-
+                        <div class="my-slick-div">
+                            <div>
+                        Jess Kern - I've been working with Tyler for over a year now to keep my website up and running, and up to date. Each time I meets with Tyler to discuss improvements to the site, I feel at ease, comfortable asking questions, and confident that I'm in good hands. Tyler brings enthusiasm, patience, focus and technical knowledge to our collaboration, and I've gotten so much positive feedback from clients about improved usability and overall attractiveness of my website. Thank you Tyler for all of your hard work - I am so grateful to be working with you!
+                        </div>
+                               <div>
+                        Tyler is cool
+                        </div>
+                               <div>
+                        Tyler is cool.
+                        </div>
+                    </div>
                     </div>
                     <div class="column">
                         <p></p>
@@ -319,9 +330,11 @@
         
         
         <script src="js/ajax-php-js-form/validate.js"></script>
-
-
-
+        
+        <!-- Slick Slider component -->
+        <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+        <script src="slick/initialize-slick.js"></script>
+        
 </body>
 
 </html>
