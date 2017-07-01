@@ -598,7 +598,7 @@ form label {
     font-size:13px;
     line-height:13px;
     color: #50baf2/*#e6e6e1*/;
-    text-shadow:.1px .1px #202020
+    /*text-shadow:.1px .1px #202020*/
 }
 form label.error {
     margin-bottom:1em;
