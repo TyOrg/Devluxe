@@ -674,7 +674,30 @@ fieldset {
 }
 
 
+/* Changing styles from the slick-theme.css file */
+.slick-prev:before, .slick-next:before {
+    color: #50baf2;
+}
     
+
+
+
+/* Slick slider Styles */
+.my-slick-div {
+    background-color: #f8f9fb;
+    margin-left: 1.5rem;
+}
+
+.slick-slide {
+    padding: 1rem;
+    text-align: justify;
+}
+
+/* End Slick slider styles */
+
+
+
+
 
 
 

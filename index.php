@@ -12,14 +12,15 @@
     <link rel="stylesheet" id="googlefonts_css-css" href="//fonts.googleapis.com/css?family=Audiowide%7CLato%7CCabin%7COld+Standard+TT%7CRaleway%7CMerriweather&amp;ver=4.8" type="text/css" media="all">
     <link rel="stylesheet" href="css/milligram.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/devluxe.css">
 
     <!-- Magnific Popup core CSS file -->
     <link rel="stylesheet" href="css/magnific-popup.css">
     
+    <!--Slick Slider-->
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
-
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    
+    <link rel="stylesheet" href="css/devluxe.css">
     
     
     
@@ -236,7 +237,7 @@
                         <div class="ulborder"><i class="fa fa-cog fa-spin" aria-hidden="true"></i></div>
                     </div>
                     <div class="column-50 col2ndsection">
-                        <p>Received 5 Coast Guard Achievement Awards while completing a 20 Year Active Duty Coast Guard career on the West and East Coast of United States as a Chief Warrant Officer. Spent years managing large scale IT projects, served as a Windows systems administrator, supervised junior technicians, served as a junior applications developer utilizing SQL, VB Script, HTML, CSS, and Databases, and served as an IT Security Officer.</p>
+                        <p>Received 5 Coast Guard Achievement Awards while completing a 20 Year Active Duty Coast Guard career on the West and East Coast of United States as a Chief Warrant Officer. Spent years managing large scale IT projects, served as a Windows systems administrator, supervised junior technicians, served as a junior applications developer utilizing SQL, VB Script, HTML, CSS, and Databases, and served as a Security Officer.</p>
                     </div>
                 </div>
 
@@ -253,8 +254,11 @@
                 </div>
                 
                 <div class="row">
+                    <div class="column column-33">
+                    
+                    </div>
 
-                    <div class="column column-33 column-offset-33">
+                    <div class="column column-33 recommendations-middle">
                         <div class="my-slick-div">
                             <div>
                         Jess Kern - I've been working with Tyler for over a year now to keep my website up and running, and up to date. Each time I meets with Tyler to discuss improvements to the site, I feel at ease, comfortable asking questions, and confident that I'm in good hands. Tyler brings enthusiasm, patience, focus and technical knowledge to our collaboration, and I've gotten so much positive feedback from clients about improved usability and overall attractiveness of my website. Thank you Tyler for all of your hard work - I am so grateful to be working with you!
@@ -267,7 +271,7 @@
                         </div>
                     </div>
                     </div>
-                    <div class="column">
+                    <div class="column column-25">
                         <p></p>
                     </div>
 
