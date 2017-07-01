@@ -689,13 +689,16 @@ fieldset {
 }
 
 .slick-slide {
-    padding: 3rem;
-    text-align: justify;
+    /*padding: 3rem;*/
+   /* text-align: justify;*/
 }
 
 /* End Slick slider styles */
 
 
+.recommendations-row {
+    flex-direction: row;
+}
 
 
 
