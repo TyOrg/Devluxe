@@ -690,7 +690,7 @@ fieldset {
 
 .slick-slide {
     /*padding: 3rem;*/
-   /* text-align: justify;*/
+   /*text-align: justify;*/
 }
 
 /* End Slick slider styles */
@@ -753,6 +753,10 @@ fieldset {
 .col2ndsection {
   margin: 0% 15% 0% 5%;
 }
+
+    
+.slick-slide {
+    padding: 3rem;
     
 }
       
