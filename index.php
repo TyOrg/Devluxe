@@ -108,7 +108,7 @@
                     <div class="column column-offset-25">
                         <div class="row">
                             <div class="column-10">
-                                <figure id="profile-photo" class=""><img src="images/tyler-3.png"><figcaption>Tyler Cornett</figcaption>
+                                <figure id="profile-photo" class=""><img src="images/Tyler-3.png"><figcaption>Tyler Cornett</figcaption>
                                 </figure>
                             </div>
                             <div id="div-photo-ul" class="column">
@@ -162,7 +162,7 @@
                 <div class="row flex-direction-row portfolio-row">
                     <div id="column-border-id" class="column column-33 column-offset-20 column-border">
                         <a href="https://jesskern.com">
-                            <img class="portfolio-border" src="images/jesskern.jpg"></a>
+                            <img class="portfolio-border" src="images/JessKern.jpg"></a>
                         <div class="ulborder"></div>
                     </div>
                     <div class="col2ndsection column-50">
@@ -171,7 +171,7 @@
                 </div>
                 <div class="row flex-direction-row portfolio-row">
                     <div id="column-border-id" class="column column-33 column-offset-20 column-border">
-                        <a href="https://codepen.io/temoty/pen/yXyLBr"><img class="portfolio-border" src="images/Space-Blog2.png"></a>
+                        <a href="https://codepen.io/temoty/pen/yXyLBr"><img class="portfolio-border" src="images/Space-blog2.png"></a>
 
                         <div class="ulborder"></div>
                     </div>
@@ -261,7 +261,7 @@
                     <div class="column column-33 recommendations-middle">
                         <div class="my-slick-div">
                             <div>
-                        Jess Kern - I've been working with Tyler for over a year now to keep my website up and running, and up to date. Each time I meets with Tyler to discuss improvements to the site, I feel at ease, comfortable asking questions, and confident that I'm in good hands. Tyler brings enthusiasm, patience, focus and technical knowledge to our collaboration, and I've gotten so much positive feedback from clients about improved usability and overall attractiveness of my website. Thank you Tyler for all of your hard work - I am so grateful to be working with you!
+                        "I've been working with Tyler for over a year now to keep my website up and running, and up to date. Each time I meets with Tyler to discuss improvements to the site, I feel at ease, comfortable asking questions, and confident that I'm in good hands. Tyler brings enthusiasm, patience, focus and technical knowledge to our collaboration, and I've gotten so much positive feedback from clients about improved usability and overall attractiveness of my website. Thank you Tyler for all of your hard work - I am so grateful to be working with you!" Jess Kern
                         </div>
                                <div>
                         Tyler is cool
@@ -286,17 +286,20 @@
                         </p>
 
                     </div>
-
-                    <div class="column">
-                        <p>find me links</p>
-                        <p>find me links</p>
+                </div>
+                <div class="row">
+                    <div class="column column-33">
+                    </div>
+                    <div class="column cloumn-33">
                         <div class="social-icon"><a href="https://twitter.com/Tyler_Co_"><i class="fa fa-lg fa-twitter" aria-hidden="true"></i></a></div>
                         <div class="social-icon"><a href="https://github.com/temoty"><i class="fa fa-lg fa-github" aria-hidden="true"></i></a></div>
                         <div class="social-icon"><a href="https://www.linkedin.com/in/tyler-cornett-a8a815100/"><i class="fa fa-lg fa-linkedin" aria-hidden="true"></i></a></div>
 
                     </div>
-
+                    <div class="column column-25">
+                    </div>
                 </div>
+               
 
             </section>
 
