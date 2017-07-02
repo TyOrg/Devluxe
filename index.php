@@ -253,7 +253,7 @@
                     </div>
                 </div>
                 
-                <div class="row recommendations-row">
+                <div class="row flex-direction-row">
                     <div class="column column-25">
                     
                     </div>
@@ -261,13 +261,14 @@
                     <div class="column column-50 recommendations-middle">
                         <div class="my-slick-div">
                             <div>
-                        "I've been working with Tyler for over a year now to keep my website up and running, and up to date. Each time I meet with Tyler to discuss improvements to the site, I feel at ease, comfortable asking questions, and confident that I'm in good hands. Tyler brings enthusiasm, patience, focus and technical knowledge to our collaboration, and I've gotten so much positive feedback from clients about improved usability and overall attractiveness of my website. Thank you Tyler for all of your hard work - I am so grateful to be working with you!" Jess Kern
+                                "I've been working with Tyler for over a year now to keep my website up and running, and up to date. Each time I meet with Tyler to discuss improvements to the site, I feel at ease, comfortable asking questions, and confident that I'm in good hands. Tyler brings enthusiasm, patience, focus and technical knowledge to our collaboration, and I've gotten so much positive feedback from clients about improved usability and overall attractiveness of my website. Thank you Tyler for all of your hard work - I am so grateful to be working with you!" <a href="http://www.jesskern.com/" target="_blank">Jess Kern</a>
+                        </div>
+                               <div>"Tyler Cornett has been helping me with my Website during the last year. My business has more than doubled and his advice and expertise has been invaluable.
+
+     I would recommend him to anyone who wants to expand their business!  He is very reliable, professional, and a pleasure to work with." <a href="">Felix Treitler, LICSW, Psychotherapy Associates</a>
                         </div>
                                <div>
-                        Tyler is cool
-                        </div>
-                               <div>
-                        Tyler is cool.
+                        Tyler is cool.lasdflkahsdlfhalsdhflahsd;lfhalshdflha;sldhf;lashd;lfjhas;dlhjf;adhjsf;
                         </div>
                     </div>
                     </div>
@@ -287,19 +288,18 @@
 
                     </div>
                 </div>
-                <div class="row">
+                
+                <div class="row flex-direction-row">
                     <div class="column column-33">
                     </div>
-                    <div class="column cloumn-33">
-                        <div class="social-icon"><a href="https://twitter.com/Tyler_Co_"><i class="fa fa-lg fa-twitter" aria-hidden="true"></i></a></div>
-                        <div class="social-icon"><a href="https://github.com/temoty"><i class="fa fa-lg fa-github" aria-hidden="true"></i></a></div>
-                        <div class="social-icon"><a href="https://www.linkedin.com/in/tyler-cornett-a8a815100/"><i class="fa fa-lg fa-linkedin" aria-hidden="true"></i></a></div>
+                    <div id="find-me" class="column column-33">
+                    <div class="column social-icon"><a href="https://twitter.com/Tyler_Co_"><i class="fa fa-lg fa-twitter" aria-hidden="true"></i></a></div>
+                        <div class="column social-icon"><a href="https://github.com/temoty"><i class="fa fa-lg fa-github" aria-hidden="true"></i></a></div>
+                        <div class="column social-icon"><a href="https://www.linkedin.com/in/tyler-cornett-a8a815100/"><i class="fa fa-lg fa-linkedin" aria-hidden="true"></i></a></div>
 
                     </div>
-                    <div class="column column-25">
-                    </div>
                 </div>
-               
+
 
             </section>
 

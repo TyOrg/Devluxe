@@ -548,6 +548,7 @@ figcaption {
 
 
 
+
 /* Styling for Magnific-Popup jQuery contact form.  */
 .white-popup {
   position: relative;
@@ -572,15 +573,6 @@ figcaption {
 
 
 /* End of Magnific Animation Styles */
-
-
-
-
-
-
-
-
-
 
 
 
@@ -696,10 +688,9 @@ fieldset {
 /* End Slick slider styles */
 
 
-.recommendations-row {
-    flex-direction: row;
+#find-me {
+display: inline-flex;
 }
-
 
 
 
@@ -799,6 +790,9 @@ fieldset {
 	  width: 1251px;*/
     
 }
+    
+
+
 
 
 
