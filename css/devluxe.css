@@ -329,10 +329,17 @@ html {
     padding: 10px;
     text-align: center;
 }
+
+.social-icon {
+    text-align: center;
+}
+
 .social-icon a {
     color: #3bb3f0;
     text-align: center;
 }
+
+
 .full-width-container {
     width: 100%;
     padding: 0px;
@@ -692,6 +699,10 @@ fieldset {
 display: inline-flex;
 }
 
+
+.fa-lg {
+    font-size: 2.3rem;
+}
 
 
 
