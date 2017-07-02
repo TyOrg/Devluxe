@@ -253,12 +253,12 @@
                     </div>
                 </div>
                 
-                <div class="row flex-direction-row">
-                    <div class="column column-25">
+                <div class="row flex-direction-row center-recommendations">
+                    <!--<div class="column column-25">
                     
-                    </div>
+                    </div>-->
 
-                    <div class="column column-50 recommendations-middle">
+                    <div id="recommendations-width" class="column column-50">
                         <div class="my-slick-div">
                             <div>
                                 "I've been working with Tyler for over a year now to keep my website up and running, and up to date. Each time I meet with Tyler to discuss improvements to the site, I feel at ease, comfortable asking questions, and confident that I'm in good hands. Tyler brings enthusiasm, patience, focus and technical knowledge to our collaboration, and I've gotten so much positive feedback from clients about improved usability and overall attractiveness of my website. Thank you Tyler for all of your hard work - I am so grateful to be working with you!" <a href="http://www.jesskern.com/" target="_blank">Jess Kern</a>
@@ -272,9 +272,9 @@
                         </div>
                     </div>
                     </div>
-                    <div class="column column-25">
+                   <!-- <div class="column column-25">
                         <p></p>
-                    </div>
+                    </div>-->
 
                 </div>
             </section>
