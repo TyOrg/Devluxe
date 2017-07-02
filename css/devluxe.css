@@ -2,7 +2,7 @@
 
 
 body {
-   margin: 0px 0 60px;
+   margin: 0px 0 0px;
     
     /*margin-top: 50px;*/
     /*margin-bottom: 60px; /* sticky footer code from Bootstrap */
@@ -325,7 +325,7 @@ html {
 }
 #footer-right {
     font-size: 10px;
-    color: #fff;
+    color: #04030F;
     padding: 10px;
     text-align: center;
 }
@@ -697,6 +697,7 @@ fieldset {
 
 #find-me {
 display: inline-flex;
+margin-bottom: 3rem;
 }
 
 

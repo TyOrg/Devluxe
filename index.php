@@ -293,36 +293,32 @@
                     <div class="column column-33">
                     </div>
                     <div id="find-me" class="column column-33">
-                    <div class="column social-icon"><a href="https://twitter.com/Tyler_Co_"><i class="fa fa-lg fa-twitter" aria-hidden="true"></i></a></div>
-                        <div class="column social-icon"><a href="https://github.com/temoty"><i class="fa fa-lg fa-github" aria-hidden="true"></i></a></div>
-                        <div class="column social-icon"><a href="https://www.linkedin.com/in/tyler-cornett-a8a815100/"><i class="fa fa-lg fa-linkedin" aria-hidden="true"></i></a></div>
+                    <div class="column social-icon"><a href="https://twitter.com/Tyler_Co_" target="_blank"><i class="fa fa-lg fa-twitter" aria-hidden="true"></i></a></div>
+                        <div class="column social-icon"><a href="https://github.com/temoty" target="_blank"><i class="fa fa-lg fa-github" aria-hidden="true"></i></a></div>
+                        <div class="column social-icon"><a href="https://www.linkedin.com/in/tyler-cornett-a8a815100/" target="_blank"><i class="fa fa-lg fa-linkedin" aria-hidden="true"></i></a></div>
 
                     </div>
                 </div>
 
-
             </section>
-
-
-        </div>
 
 
         <!-- .container -->
 
 
         <!-- <div class="footer-wrapper container"> This was replaced with below div 5/12/17-->
-        <div class="footer-wrapper">
+      <!-- <div class="footer-wrapper"> -->
 
-            <!--<div id="footer">-->
+            
             <footer class="footer">
-
-
 
                 <div id="footer-right">Copyright ©
                     <?php echo date('Y') ?> Devluxe.</div>
             </footer>
-            <!--</div>-->
         </div>
+            
+           
+     <!--   </div> -->
 
         <!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
