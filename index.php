@@ -268,7 +268,7 @@
      I would recommend him to anyone who wants to expand their business!  He is very reliable, professional, and a pleasure to work with." <a href="">Felix Treitler, LICSW, Psychotherapy Associates</a>
                         </div>
                                <div>
-                        Tyler is cool.lasdflkahsdlfhalsdhflahsd;lfhalshdflha;sldhf;lashd;lfjhas;dlhjf;adhjsf;
+                        
                         </div>
                     </div>
                     </div>

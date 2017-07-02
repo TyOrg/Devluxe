@@ -549,7 +549,7 @@ hr {
 }
 
 figcaption {
-    margin-left: 1rem;
+    margin-left: 2.2rem;
 }
 
 
@@ -765,6 +765,11 @@ margin-bottom: 3rem;
     
 .col2ndsection {
   margin: 0% 15% 0% 5%;
+}
+    
+figcaption {
+    margin-left: 0rem;
+    text-align: center;
 }
       
 
