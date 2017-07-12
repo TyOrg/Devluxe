@@ -18,7 +18,7 @@
 
     <!--Slick Slider-->
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css" />
-    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="js/slick/slick-theme.css" />
 
     <link rel="stylesheet" href="css/devluxe.css">
 
@@ -94,7 +94,7 @@
 
                                 <li><i class="fa fa-globe" aria-hidden="true"></i>&nbsp;&nbsp;Boston</li>
                                 <li><i class="fa fa-code" aria-hidden="true"></i>&nbsp;&nbsp;Front End Developer</li>
-                                <li><a href="http://localhost:8888/devluxe/wp-content/uploads/2017/06/Resume.pdf"><i class="fa fa-file-text-o" aria-hidden="true"></i>&nbsp;&nbsp;Resume</a></li>
+                                <li><a href="images/Resume.pdf"><i class="fa fa-file-text-o" aria-hidden="true"></i>&nbsp;&nbsp;Resume</a></li>
                             </ul>
                         </div>
 
@@ -127,43 +127,43 @@
 
                 <div id="column-border-id" class="column column-33 column-offset-20 column-border">
                     <!-- Maybe use a UL list for the little circle bullets as decoration on border -->
-                    <a href="https://instaprovider.com">
+                    <a href="https://instaprovider.com" target="_blank">
                         <img class="portfolio-border" src="images/Instaprovider.jpg"></a>
                     <div class="ulborder"></div>
                 </div>
 
                 <div class="col2ndsection column-50">
-                    <p><a href="https://instaprovider.com">Instaprovider</a> is a site using WordPress Beaver Builder Theme that incorporates WP Advanced Search functionality and uses Vimeo video integration. The site is a referral system for professional providers based on their video interviews.</p>
+                    <p><a href="https://instaprovider.com" target="_blank">Instaprovider</a> is a site using WordPress Beaver Builder Theme that incorporates WP Advanced Search functionality and uses Vimeo video integration. The site is a referral system for professional providers based on their video interviews.</p>
                 </div>
             </div>
             <div class="row flex-direction-row portfolio-row">
                 <div id="column-border-id" class="column column-33 column-offset-20 column-border">
-                    <a href="https://jesskern.com">
+                    <a href="http://jesskern.com" target="_blank">
                         <img class="portfolio-border" src="images/JessKern.jpg"></a>
                     <div class="ulborder"></div>
                 </div>
                 <div class="col2ndsection column-50">
-                    <p><a href="https://jesskern.com">Jess Kern</a> was a joy to work with on this project. I enjoyed helping her reach new customers and enhancing her online ordering software. I customized a Twentyfifteen WordPress Child Theme for her. This included creating a CSS Button for her online ordering software.</p>
+                    <p><a href="http://jesskern.com" target="_blank">Jess Kern</a> was a joy to work with on this project. I enjoyed helping her reach new customers and enhancing her online ordering software. I customized a Twentyfifteen WordPress Child Theme for her. This included creating a CSS Button for her online ordering software.</p>
                 </div>
             </div>
             <div class="row flex-direction-row portfolio-row">
                 <div id="column-border-id" class="column column-33 column-offset-20 column-border">
-                    <a href="https://codepen.io/temoty/pen/yXyLBr"><img class="portfolio-border" src="images/Space-blog2.png"></a>
+                    <a href="https://codepen.io/temoty/pen/yXyLBr" target="_blank"><img class="portfolio-border" src="images/Space-blog2.png"></a>
 
                     <div class="ulborder"></div>
                 </div>
                 <div class="column-50 col2ndsection">
-                    <p><a href="https://codepen.io/temoty/pen/yXyLBr">Space Blog </a>is a template created in Codepen.Increased efficiency and performance within E-Learning Department by developing Administrative Support solutions, Excel Spreadsheet Reports, and Learning Management System Software edits.</p>
+                    <p><a href="https://codepen.io/temoty/pen/yXyLBr" target="_blank">Space Blog </a>is a template created in Codepen.Increased efficiency and performance within E-Learning Department by developing Administrative Support solutions, Excel Spreadsheet Reports, and Learning Management System Software edits.</p>
                 </div>
             </div>
 
             <div class="row flex-direction-row portfolio-row">
                 <div id="column-border-id" class="column column-33 column-offset-20 column-border">
-                    <a href="https://beeandbe.com"><img class="portfolio-border" src="images/beeandbe.jpg"></a>
+                    <a href="http://beeandbe.com" target="_blank"><img class="portfolio-border" src="images/beeandbe.jpg"></a>
                     <div class="ulborder"></div>
                 </div>
                 <div class="column-50 col2ndsection">
-                    <p>With <a href="https://beeandbe.com">BeeAndBe.com</a>, it was a pleasure working with Jess Kern to help place a customized logo on this WordPress site. I did basic design features and helped organize her site in this popular WordPress theme.</p>
+                    <p>With <a href="http://beeandbe.com" target="_blank">BeeAndBe.com</a>, it was a pleasure working with Jess Kern to help place a customized logo on this WordPress site. I did basic design features and helped organize her site in this popular WordPress theme.</p>
                 </div>
             </div>
             <div class="row">
@@ -291,14 +291,18 @@
 
     <!-- Magnific Popup core JS file -->
     <script src="js/magnific-popup/jquery.magnific-popup.js"></script>
-    <script src="js/magnific-popup/initialize-popup.js"></script>
+    <!--<script src="js/magnific-popup/initialize-popup.js"></script>-->
+    <script src="js/devluxe.js"></script>
 
 
-    <script src="js/ajax-php-js-form/validate.js"></script>
+    <!-- Ajax form validate -->
+    <script src="js/devluxe.js"></script>
 
     <!-- Slick Slider component -->
     <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
-    <script src="slick/initialize-slick.js"></script>
+    <!--<script src="js/slick/initialize-slick.js"></script>-->
+    <script src="js/devluxe.js"></script>
+
 
 </body>
 
