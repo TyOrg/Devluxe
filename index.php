@@ -291,16 +291,12 @@
 
     <!-- Magnific Popup core JS file -->
     <script src="js/magnific-popup/jquery.magnific-popup.js"></script>
-    <!--<script src="js/magnific-popup/initialize-popup.js"></script>-->
-    <script src="js/devluxe.js"></script>
 
-
-    <!-- Ajax form validate -->
-    <script src="js/devluxe.js"></script>
 
     <!-- Slick Slider component -->
     <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
-    <!--<script src="js/slick/initialize-slick.js"></script>-->
+    
+    <!-- Ajax Form Validate, initialize slick, initialize magnific popup -->
     <script src="js/devluxe.js"></script>
 
 
