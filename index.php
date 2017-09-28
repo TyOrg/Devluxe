@@ -111,6 +111,35 @@
                 </div>
             </div>
         </section>
+                <section class="second-background-color">
+            <div class="row">
+
+                <div class="column column-25 column-offset-20 heading">
+                    <p>
+                        Recommendations
+                    </p>
+                </div>
+            </div>
+
+            <div class="row flex-direction-row center-recommendations">
+                <!--<div class="column column-25">
+                    
+                    </div>-->
+
+                <div id="recommendations-width" class="column column-50">
+                    <div class="my-slick-div">
+                        <div>
+                            "I've been working with Tyler for over a year now to keep my website up and running, and up to date. Each time I meet with Tyler to discuss improvements to the site, I feel at ease, comfortable asking questions, and confident that I'm in good hands. Tyler brings enthusiasm, patience, focus and technical knowledge to our collaboration, and I've gotten so much positive feedback from clients about improved usability and overall attractiveness of my website. Thank you Tyler for all of your hard work - I am so grateful to be working with you!" <a href="http://www.jesskern.com/" target="_blank">Jess Kern</a>
+                        </div>
+                        <div>"Tyler Cornett has been helping me with my Website during the last year. My business has more than doubled and his advice and expertise has been invaluable. I would recommend him to anyone who wants to expand their business! He is very reliable, professional, and a pleasure to work with." <a href="https://felixtreitler.org">Felix Treitler, LICSW, Psychotherapy Associates</a>
+                        </div>
+                        <div>
+                            "I've known Tyler for many years working together on wide array of projects ranging from customizing and building Wordpress themes and plugins to interactive Javascript driven applications. He's been an invaluable person to work with on many levels. In addition to his technical skills as a developer, he has great interpersonal skills along with a keen sense for the business, marketing, and strategy side. Together that's a very powerful and rare combination to find in a developer." <a href="https://thadroe.com" target="_blank">Thad Roe</a></div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
         <section class="second-background-color">
             <div class="row portfolio-row">
 
@@ -240,7 +269,7 @@
                         <div>
                             "I've been working with Tyler for over a year now to keep my website up and running, and up to date. Each time I meet with Tyler to discuss improvements to the site, I feel at ease, comfortable asking questions, and confident that I'm in good hands. Tyler brings enthusiasm, patience, focus and technical knowledge to our collaboration, and I've gotten so much positive feedback from clients about improved usability and overall attractiveness of my website. Thank you Tyler for all of your hard work - I am so grateful to be working with you!" <a href="http://www.jesskern.com/" target="_blank">Jess Kern</a>
                         </div>
-                        <div>"Tyler Cornett has been helping me with my Website during the last year. My business has more than doubled and his advice and expertise has been invaluable. I would recommend him to anyone who wants to expand their business! He is very reliable, professional, and a pleasure to work with." <a href="">Felix Treitler, LICSW, Psychotherapy Associates</a>
+                        <div>"Tyler Cornett has been helping me with my Website during the last year. My business has more than doubled and his advice and expertise has been invaluable. I would recommend him to anyone who wants to expand their business! He is very reliable, professional, and a pleasure to work with." <a href="https://felixtreitler.org">Felix Treitler, LICSW, Psychotherapy Associates</a>
                         </div>
                         <div>
                             "I've known Tyler for many years working together on wide array of projects ranging from customizing and building Wordpress themes and plugins to interactive Javascript driven applications. He's been an invaluable person to work with on many levels. In addition to his technical skills as a developer, he has great interpersonal skills along with a keen sense for the business, marketing, and strategy side. Together that's a very powerful and rare combination to find in a developer." <a href="https://thadroe.com" target="_blank">Thad Roe</a></div>
