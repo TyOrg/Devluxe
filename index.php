@@ -140,7 +140,7 @@
             </div>
 
         </section>
-        <section class="second-background-color">
+        <section class="top-background-color">
             <div class="row portfolio-row">
 
                 <div class="column column-25 column-offset-20 heading">
@@ -163,6 +163,16 @@
 
                 <div class="col2ndsection column-50">
                     <p><a href="https://instaprovider.com" target="_blank">Instaprovider</a> is a site using WordPress Beaver Builder Theme that incorporates WP Advanced Search functionality and uses Vimeo video integration. The site is a referral system for professional providers based on their video interviews.</p>
+                </div>
+            </div>
+            <div class="row flex-direction-row portfolio-row">
+                <div id="column-border-id" class="column column-33 column-offset-20 column-border">
+                    <a href="https://felixtreitler.org" target="_blank">
+                        <img class="portfolio-border" src="images/FelixTreitlerOrg.jpg"></a>
+                    <div class="ulborder"></div>
+                </div>
+                <div class="col2ndsection column-50">
+                    <p><a href="https://felixtreitler.org" target="_blank">Felix Treitler</a> is a therapist who wanted a warm site, which conveyed his outdoor activity related therapies. For this fully responsive mobile site, I customized a Bootstrap template while integrating Font Awesome Icons and created a JavaScript contact form using an Ajax call upon form submission.</p>
                 </div>
             </div>
             <div class="row flex-direction-row portfolio-row">
@@ -203,7 +213,7 @@
                 </div>
             </div>
         </section>
-        <section class="top-background-color">
+        <section class="second-background-color">
             <div class="row flex-direction-row">
 
                 <div class="column column-25 column-offset-20 heading">
@@ -244,36 +254,6 @@
                 </div>
                 <div class="column-50 col2ndsection">
                     <p>Received 5 Coast Guard Achievement Awards while completing a 20 Year Active Duty Coast Guard career on the West and East Coast of United States as a Chief Warrant Officer. Spent years managing large scale IT projects, served as a Windows systems administrator, supervised junior technicians, served as a junior applications developer utilizing SQL, VB Script, HTML, CSS, and Databases, and served as a Security Officer.</p>
-                </div>
-            </div>
-
-        </section>
-
-        <section class="second-background-color">
-            <div class="row">
-
-                <div class="column column-25 column-offset-20 heading">
-                    <p>
-                        Recommendations
-                    </p>
-                </div>
-            </div>
-
-            <div class="row flex-direction-row center-recommendations">
-                <!--<div class="column column-25">
-                    
-                    </div>-->
-
-                <div id="recommendations-width" class="column column-50">
-                    <div class="my-slick-div">
-                        <div>
-                            "I've been working with Tyler for over a year now to keep my website up and running, and up to date. Each time I meet with Tyler to discuss improvements to the site, I feel at ease, comfortable asking questions, and confident that I'm in good hands. Tyler brings enthusiasm, patience, focus and technical knowledge to our collaboration, and I've gotten so much positive feedback from clients about improved usability and overall attractiveness of my website. Thank you Tyler for all of your hard work - I am so grateful to be working with you!" <a href="http://www.jesskern.com/" target="_blank">Jess Kern</a>
-                        </div>
-                        <div>"Tyler Cornett has been helping me with my Website during the last year. My business has more than doubled and his advice and expertise has been invaluable. I would recommend him to anyone who wants to expand their business! He is very reliable, professional, and a pleasure to work with." <a href="https://felixtreitler.org">Felix Treitler, LICSW, Psychotherapy Associates</a>
-                        </div>
-                        <div>
-                            "I've known Tyler for many years working together on wide array of projects ranging from customizing and building Wordpress themes and plugins to interactive Javascript driven applications. He's been an invaluable person to work with on many levels. In addition to his technical skills as a developer, he has great interpersonal skills along with a keen sense for the business, marketing, and strategy side. Together that's a very powerful and rare combination to find in a developer." <a href="https://thadroe.com" target="_blank">Thad Roe</a></div>
-                    </div>
                 </div>
             </div>
 
