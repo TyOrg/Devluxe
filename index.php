@@ -84,7 +84,7 @@
                 <div class="column column-offset-25">
                     <div class="row">
                         <div class="column-10">
-                            <figure id="profile-photo" class=""><img src="images/Tyler-3.png">
+                            <figure id="profile-photo" class=""><img src="images/Tyler-3.jpg">
                                 <figcaption>Tyler Cornett</figcaption>
                             </figure>
                         </div>
@@ -111,7 +111,7 @@
                 </div>
             </div>
         </section>
-                <section class="second-background-color">
+        <section class="second-background-color">
             <div class="row">
 
                 <div class="column column-25 column-offset-20 heading">
@@ -151,6 +151,32 @@
                 </div>
 
             </div>
+            <div class="row flex-direction-row portfolio-row">
+
+                <div id="column-border-id" class="column column-33 column-offset-20 column-border">
+                    <!-- Maybe use a UL list for the little circle bullets as decoration on border -->
+                    <a href="http://bostoneast.com" target="_blank">
+                        <img class="portfolio-border" src="images/boston-east.jpg"></a>
+                    <div class="ulborder"></div>
+                </div>
+
+                <div class="col2ndsection column-50">
+                    <p><a href="http://bostoneast.com" target="_blank">BostonEast.com</a> is a site built using a custom WordPress theme.  I was one of three developers working on this site after receiving design .psd files from a local Boston designer.  The <a href="https://bostoneast.com/floor-plans/" target="_blank">Floor Plans</a> page took some fine tuning involving CSS and JavaScript.  The <a href="https://bostoneast.com/location/points-of-interest/" target="_blank">Points of Interest</a> page involves multi file JavaScript configurations to integrate the Google Maps API.</p>
+                </div>
+            </div>
+            <div class="row flex-direction-row portfolio-row">
+
+                <div id="column-border-id" class="column column-33 column-offset-20 column-border">
+                    <!-- Maybe use a UL list for the little circle bullets as decoration on border -->
+                    <a href="https://maav.bkjdev.com/site/" target="_blank">
+                        <img class="portfolio-border" src="images/maav.org.jpg"></a>
+                    <div class="ulborder"></div>
+                </div>
+
+                <div class="col2ndsection column-50">
+                    <p><a href="https://maav.bkjdev.com/site/" target="_blank">MAAV.org</a> is another custom WordPress theme utilizing the Royal Slider plugin for image functionality.  Image sprites were configured via CSS for slider arrow positioning.  In addition, I developed a Table of Contents script using jQuery that anchors each Table of Contents item to the specific page section via scrolling effect.</p>
+                </div>
+            </div>
 
             <div class="row flex-direction-row portfolio-row">
 
@@ -185,17 +211,6 @@
                     <p><a href="http://jesskern.com" target="_blank">Jess Kern</a> was a joy to work with on this project. I enjoyed helping her reach new customers and enhancing her online ordering software. I customized a Twentyfifteen WordPress Child Theme for her. This included creating a CSS Button for her online ordering software.</p>
                 </div>
             </div>
-            <div class="row flex-direction-row portfolio-row">
-                <div id="column-border-id" class="column column-33 column-offset-20 column-border">
-                    <a href="https://codepen.io/temoty/pen/yXyLBr" target="_blank"><img class="portfolio-border" src="images/Space-blog2.png"></a>
-
-                    <div class="ulborder"></div>
-                </div>
-                <div class="column-50 col2ndsection">
-                    <p><a href="https://codepen.io/temoty/pen/yXyLBr" target="_blank">Space Blog </a>is a template created in Codepen.Increased efficiency and performance within E-Learning Department by developing Administrative Support solutions, Excel Spreadsheet Reports, and Learning Management System Software edits.</p>
-                </div>
-            </div>
-
             <div class="row flex-direction-row portfolio-row">
                 <div id="column-border-id" class="column column-33 column-offset-20 column-border">
                     <a href="http://beeandbe.com" target="_blank"><img class="portfolio-border" src="images/beeandbe.jpg"></a>
@@ -304,7 +319,7 @@
 
     <!-- Slick Slider component -->
     <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
-    
+
     <!-- Ajax Form Validate, initialize slick, initialize magnific popup -->
     <script src="js/devluxe.js"></script>
 
