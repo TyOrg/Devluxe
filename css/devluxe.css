@@ -482,6 +482,10 @@
         #headshot {
             margin-left: 33%;
         }
+        
+        .ulborder .fa {
+            font-size: 15px;
+        }
         /* MEDIA QUERIES BELOW */
         /* Extra small devices (phones, less than 768px) */
         /* Devices with Max Width 768px */
@@ -518,7 +522,7 @@
         
         @media (min-width: 768px) {
             #profile-photo {
-                margin-left: 1rem;
+                margin-left: 4rem;
             }
             .col2ndsection {
                 margin: 0% 15% 0% 5%;
