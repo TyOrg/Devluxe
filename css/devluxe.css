@@ -100,7 +100,7 @@
         }
         
         .carousel {
-            position: ;
+            /* position: ; */
             /*margin-right: -15px;*/
             padding-right: 0px;
         }
@@ -478,9 +478,22 @@
         .center-recommendations {
             justify-content: center;
         }
+        
+        #headshot {
+            margin-left: 33%;
+        }
         /* MEDIA QUERIES BELOW */
         /* Extra small devices (phones, less than 768px) */
         /* Devices with Max Width 768px */
+        
+        @media (max-width: 640px) {
+            /* #headshot {
+                margin-left: 33%;
+            } */
+            #div-photo-ul {
+                margin-left: 33%;
+            }
+        }
         
         @media (max-width: 768px) {
             #recommendations-width {
@@ -497,14 +510,17 @@
                 padding-right: 5%;
                 padding-left: 4rem;
             }
+            #div-photo-ul {
+                margin-top: 5rem;
+            }
         }
         /* Small devices (tablets, 768px and up) */
         
         @media (min-width: 768px) {
-            #div-photo-ul {
+            /* #div-photo-ul {
                 margin-top: 2.85rem;
                 padding-left: 0;
-            }
+            } */
             #profile-photo {
                 margin-left: 1rem;
             }

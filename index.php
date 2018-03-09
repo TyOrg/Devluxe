@@ -94,34 +94,31 @@
                     </p>
                 </div>
             </div>
-            <div class="row">
-                <div class="column column-offset-25">
-                    <div class="row">
-                        <div class="column-10">
-                            <figure id="profile-photo" class="">
-                                <img src="images/Tyler-3.jpg">
-                                <figcaption>Tyler Cornett</figcaption>
-                            </figure>
-                        </div>
-                        <div id="div-photo-ul" class="column">
+<div class="row">
+    <div id="headshot" class="column-25">
+                    
+            <figure id="profile-photo">
+                <img src="images/Tyler-3.jpg">
+                <figcaption>Tyler Cornett</figcaption>
+            </figure>
+    </div>
+    <div id="div-photo-ul" class="column-50">
 
-                            <ul id="ul-style" class="column column-75" style="list-style: none;">
+            <ul id="ul-style" class="column column-75" style="list-style: none;">
 
-                                <li>
-                                    <i class="fa fa-globe" aria-hidden="true"></i>&nbsp;&nbsp;Boston</li>
-                                <li>
-                                    <i class="fa fa-code" aria-hidden="true"></i>&nbsp;&nbsp;Front End Developer</li>
-                                <li>
-                                    <a href="images/Resume.pdf">
-                                        <i class="fa fa-file-text-o" aria-hidden="true"></i>&nbsp;&nbsp;Resume</a>
-                                </li>
-                            </ul>
-                        </div>
+                <li>
+                    <i class="fa fa-globe" aria-hidden="true"></i>&nbsp;&nbsp;Boston</li>
+                <li>
+                    <i class="fa fa-code" aria-hidden="true"></i>&nbsp;&nbsp;Front End Developer</li>
+                <li>
+                    <a href="images/Resume.pdf">
+                        <i class="fa fa-file-text-o" aria-hidden="true"></i>&nbsp;&nbsp;Resume</a>
+                </li>
+            </ul>
+                    
+    </div>
+</div>
 
-                    </div>
-                </div>
-
-            </div>
             <div class="row">
 
                 <div class="column column-30 column-offset-25">
