@@ -517,10 +517,6 @@
         /* Small devices (tablets, 768px and up) */
         
         @media (min-width: 768px) {
-            /* #div-photo-ul {
-                margin-top: 2.85rem;
-                padding-left: 0;
-            } */
             #profile-photo {
                 margin-left: 1rem;
             }

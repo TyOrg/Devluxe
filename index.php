@@ -104,7 +104,7 @@
     </div>
     <div id="div-photo-ul" class="column-50">
 
-            <ul id="ul-style" class="column column-75" style="list-style: none;">
+            <ul id="ul-style" style="list-style: none;">
 
                 <li>
                     <i class="fa fa-globe" aria-hidden="true"></i>&nbsp;&nbsp;Boston</li>
