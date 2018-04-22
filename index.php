@@ -264,20 +264,6 @@
             </div>
             <div class="row flex-direction-row portfolio-row">
                 <div id="column-border-id" class="column column-33 column-offset-20 column-border">
-                    <a href="https://felixtreitler.org" target="_blank">
-                        <img class="portfolio-border" src="images/FelixTreitlerOrg.jpg">
-                    </a>
-                    <div class="ulborder"></div>
-                </div>
-                <div class="col2ndsection column-50">
-                    <p>
-                        <a href="https://felixtreitler.org" target="_blank">Felix Treitler</a> is a therapist who wanted a warm site, which conveyed his outdoor activity related
-                        therapies. For this fully responsive mobile site, I customized a Bootstrap template while integrating
-                        Font Awesome Icons and created a JavaScript contact form using an Ajax call upon form submission.</p>
-                </div>
-            </div>
-            <div class="row flex-direction-row portfolio-row">
-                <div id="column-border-id" class="column column-33 column-offset-20 column-border">
                     <a href="http://jesskern.com" target="_blank">
                         <img class="portfolio-border" src="images/JessKern.jpg">
                     </a>
