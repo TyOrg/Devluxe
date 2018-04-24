@@ -98,7 +98,7 @@
     <div id="headshot" class="column-25">
                     
             <figure id="profile-photo">
-                <img src="images/Tyler-3.jpg">
+                <img src="images/_MG_7613-2-cropped.jpg">
                 <figcaption>Tyler Cornett</figcaption>
             </figure>
     </div>

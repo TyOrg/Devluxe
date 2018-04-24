@@ -4,7 +4,7 @@
             /*rgba(51, 51, 51, 0.11);*/
             font-family: 'Raleway', sans-serif;
             /*'Merriweather', serif;*/
-            font-size: 13px;
+            font-size: 16px;
             overflow-x: hidden !important;
         }
         
@@ -206,7 +206,7 @@
         }
         
         #profile-photo img {
-            border-radius: 50%;
+            /* border-radius: 50%; */
         }
         
         #ul-style {
