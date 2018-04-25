@@ -148,7 +148,7 @@
         }
         
         #footer-right {
-            font-size: 10px;
+            font-size: 14px;
             color: #04030F;
             padding: 10px;
             text-align: center;
@@ -281,13 +281,10 @@
         }
         
         .ulborder {
-            /*   content: "&#xf110"; 
-   
-    padding-left: 5px;*/
             color: #3bb3f0;
             position: absolute;
             top: .24rem;
-            right: -.67rem;
+            right: -.73rem;
         }
         
         .ulborder i {
